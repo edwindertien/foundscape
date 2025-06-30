@@ -33,4 +33,5 @@ Right now I tend to put in a Traco power TC2450 or similar to do the 12-24V to 5
 - RS485 (DMX: neutrix 3/5 pin, 'dynamixel' bus) -> 3way(A, B, GND) and 4way (A, B, Power, GND) jst socket. For (my) RJ45 and a neutrik socket we can make an adapter
 - ethernet: WSD5500 + socket + mag
 - MIDI: old fashioned 5-pin DIN midi (CNY138 optocoupler) (can also be adapter cable from 5-way jst socket)
+- A pico could in theory also do everything WIFI / Bluetooth / BLE wise. .. 
 - HW sync input (optocoupler?)
