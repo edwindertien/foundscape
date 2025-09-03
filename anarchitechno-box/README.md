@@ -32,6 +32,7 @@ Right now I tend to put in a Traco power TC2450 or similar to do the 12-24V to 5
 - OLED (small 32x128 pix) is very useful for menu, status info etc
 - incremental encoder (3 switches) - pio code works fine. good for changing menu options
 - simple basic LEDs on power and communication lines (so you can always check com, also when you are fiddeling with a menu), also from a distance. 
+- WS8211 RGB leds (string), 1 per channel (channel mode selection) and communication status (per socket / unit)
 
 ### connection
 - USB (midi, serial)  -> existing USB micro
