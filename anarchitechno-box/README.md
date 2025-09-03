@@ -22,7 +22,17 @@ not yet implemented but nice to have
 
 For now the output section consisting of IRFZ44 and TC4423 has been working ok. Might be room to revise for newer, cheaper and SMD version. See if gate driver is necessary, but might be for higher switching frequencies. I checked other gate drivers, so far the 4427 seems a good (SMD) follow up with a good balance in price, performance and size
 
+### power
 Right now I tend to put in a Traco power TC2450 or similar to do the 12-24V to 5V conversion. Might be up for a change too. 
+
+It wouls be very welcome to have galvanic separation between the power stage (12-24V side) and the logic side. The power consumption at the logic side is non-neglegible:
+- pico (3.3V) - 20 mA? 
+- OLED .. mA
+- WS5500 .. mA
+- USB Host -> 500mA
+
+It might be best to build a 5Watt (1A) switching power supply or use a ready to go module. The TI 6505B uses a separate transformer (suggested, but need to be checked ) [wurth](https://octopart.com/750313974-wurth+electronics+midcom-49417564) and can go up to 5 Watt.
+
 
 ### galvanic separation
 - using isolators it is important to separate the high/power (24V) side from the logic side. This means digital isolators as well as an isiolated 5V->5.5V supply. The USB Host needs 5V, the pico can do 5V->3.3V with its on-board converter
