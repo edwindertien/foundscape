@@ -828,51 +828,39 @@
     ],
     [
       "48f260d8-d62f-49a9-8985-05fca65ac6cb",
-      "TwoIsolatedFETs"
+      "TwoIsolatedFETs0"
     ],
     [
-      "688d4fad-f146-48db-8a59-b38427386aae",
-      "FET"
-    ],
-    [
-      "8e901122-f81e-4420-81c4-d3e77f19dd56",
-      "FET1"
-    ],
-    [
-      "12bef9db-d972-4896-a26f-d5c3968bc300",
+      "f97c65ed-bb3f-4eb8-a2c6-056cc510b5f8",
       "TwoIsolatedFETs1"
     ],
     [
-      "688d4fad-f146-48db-8a59-b38427386aae",
-      "FET"
+      "ec360df5-fff7-49b0-afa3-93c9754653a9",
+      "HBridge_A"
     ],
     [
-      "8e901122-f81e-4420-81c4-d3e77f19dd56",
-      "FET1"
+      "0c0607e4-80d3-46ba-8adb-76563a900b03",
+      "HBridge_B"
     ],
     [
-      "f5ac339f-b4ee-4706-a76a-35e9498ee160",
-      "TwoIsolatedFETs2"
+      "235354ef-c84c-4c58-80da-7dbc9f45110b",
+      "Isolators"
     ],
     [
-      "688d4fad-f146-48db-8a59-b38427386aae",
-      "FET"
+      "fe979741-96bb-4de4-ad6e-25369264489a",
+      "Ethernet"
     ],
     [
-      "8e901122-f81e-4420-81c4-d3e77f19dd56",
-      "FET1"
+      "14a18c5e-b7ca-4e47-b475-ea7a44b010d0",
+      "DCDC Flyback"
     ],
     [
-      "d1a3a362-4f3c-49ac-820a-3a7957daa71a",
-      "TwoIsolatedFETs3"
+      "ec360df5-fff7-49b0-afa3-93c9754653a9",
+      "HBridge_A"
     ],
     [
-      "688d4fad-f146-48db-8a59-b38427386aae",
-      "FET"
-    ],
-    [
-      "8e901122-f81e-4420-81c4-d3e77f19dd56",
-      "FET1"
+      "0c0607e4-80d3-46ba-8adb-76563a900b03",
+      "HBridge_B"
     ]
   ],
   "text_variables": {}

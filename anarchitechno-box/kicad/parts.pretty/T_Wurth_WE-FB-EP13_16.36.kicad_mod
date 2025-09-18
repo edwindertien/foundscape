@@ -1,0 +1,254 @@
+(footprint "T_Wurth_WE-FB-EP13_16.36"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Flyback Transformer suitable for LT3573/ LT3574/ LT3575/ LT3748, body 13.46x17.75x12.7mm, https://www.we-online.com/en/components/products/WE-FB#/articles/WE-FB-EP13")
+	(tags "SMT")
+	(property "Reference" "REF**"
+		(at 0 -10.37 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c00797ee-4e38-480d-9905-9da70b365afb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "T_Wurth_WE-FB-EP13_16.36"
+		(at 0 10.37 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9b788006-e372-43fc-aa01-0341d7e688ec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "543d1d02-e30d-4d35-9a9b-db4538d9401b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f1b3fea2-2a5b-4b1d-bdb8-ae31f082ce36")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -6.84 -8.985)
+		(end -5.845 -8.985)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a8549422-2ec1-409f-b530-f31b225054dc")
+	)
+	(fp_line
+		(start -6.84 8.985)
+		(end -6.84 -8.985)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ad7a2a91-9975-4b9f-a55b-46732bf85ae3")
+	)
+	(fp_line
+		(start -5.845 8.985)
+		(end -6.84 8.985)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cc393251-ec00-4bf4-a535-acb626a2a614")
+	)
+	(fp_line
+		(start -5.585 -9.455)
+		(end -4.415 -9.455)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "91da254d-8bf9-4a34-9223-4d1d05ed9c63")
+	)
+	(fp_line
+		(start 6.84 -8.985)
+		(end 5.845 -8.985)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "61fbdf97-5359-47d3-b2cf-2eb75fa4374c")
+	)
+	(fp_line
+		(start 6.84 -8.985)
+		(end 6.84 8.985)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "85ee5b71-ef1f-41c8-944d-5e3bbf07a47a")
+	)
+	(fp_line
+		(start 6.84 8.985)
+		(end 5.845 8.985)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6ba84f95-5595-4d9c-a7e9-6a7a5b535956")
+	)
+	(fp_rect
+		(start -7.25 -9.75)
+		(end 7.21 9.74)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "79db13b4-c4f8-4c66-99ce-0507241e4305")
+	)
+	(fp_line
+		(start -5.585 -8.875)
+		(end -5 -8.173)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "45ce9818-7f7c-4698-80d8-34e1aa74e1bc")
+	)
+	(fp_line
+		(start -4.415 -8.875)
+		(end -5 -8.173)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6c6a9626-58de-43b9-92c6-2e0b0482479c")
+	)
+	(fp_rect
+		(start -6.73 -8.875)
+		(end 6.73 8.875)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "fb1cdd3f-f6a4-4ec1-8ec2-23c0d9859cdb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fbeeb872-189f-46d0-9349-6d6b2371da63")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -5 -8.18)
+		(size 1.17 1.88)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4ab04cc9-7add-48c9-8538-322c09736396")
+	)
+	(pad "2" smd rect
+		(at -2.5 -8.18)
+		(size 1.17 1.88)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "35b83cab-1a58-4de0-96b5-0c5a5b1258c0")
+	)
+	(pad "3" smd rect
+		(at 0 -8.18)
+		(size 1.17 1.88)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0a5d133c-0605-4454-8cd7-89f41754e338")
+	)
+	(pad "4" smd rect
+		(at 2.5 -8.18)
+		(size 1.17 1.88)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4695423d-a362-4a06-968c-14387f4511f5")
+	)
+	(pad "5" smd rect
+		(at 5 -8.18)
+		(size 1.17 1.88)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f0dfb3c5-5999-46cd-997c-cd8b335c4cc4")
+	)
+	(pad "6" smd rect
+		(at 5 8.18)
+		(size 1.17 1.88)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cdc72e8d-70ee-4a46-ae2a-2eb7415c2eda")
+	)
+	(pad "7" smd rect
+		(at 2.5 8.18)
+		(size 1.17 1.88)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8021380d-3781-48c6-afe6-57f8c2f8853c")
+	)
+	(pad "8" smd rect
+		(at 0 8.18)
+		(size 1.17 1.88)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d93ec5a4-6505-4198-836c-d53054f701bd")
+	)
+	(pad "9" smd rect
+		(at -2.5 8.18)
+		(size 1.17 1.88)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5c4eef72-7374-4dde-9403-ecd9bc6bdd1c")
+	)
+	(pad "10" smd rect
+		(at -5 8.18)
+		(size 1.17 1.88)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "64180b89-0fbd-4265-84b2-7f9d18038312")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3d/T_Wurth_WE-FB-EP13_16.36.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
