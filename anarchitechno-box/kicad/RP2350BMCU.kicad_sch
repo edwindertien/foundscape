@@ -356,6 +356,206 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x04"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -625,6 +825,412 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:RotaryEncoder_Switch_MP"
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RotaryEncoder_Switch_MP"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -3.81 4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch and MP Pin"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "rotary switch encoder switch push button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "RotaryEncoder*Switch*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RotaryEncoder_Switch_MP_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -3.81 2.54) (xy -3.81 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -3.81 0) (xy -3.81 -1.016) (xy -3.302 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -3.81 -2.54) (xy -3.81 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.318 0) (xy -3.81 0) (xy -3.81 1.016) (xy -3.302 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.81 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.778) (xy -0.635 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -0.381 0)
+					(radius 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.381 -1.778) (xy -0.381 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.381 -2.794)
+					(mid -3.0988 -0.0635)
+					(end -0.381 2.667)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 1.778) (xy -0.127 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 2.921) (xy -0.508 2.667) (xy 0.127 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -3.048) (xy -0.508 -2.794) (xy 0.127 -2.413)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.016) (xy 3.81 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 3.429 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.318 1.016)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.318 -1.016)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 4.318 2.54) (xy 4.318 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 4.318 -2.54) (xy 4.318 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RotaryEncoder_Switch_MP_1_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5799,6 +6405,18 @@
 		(uuid "3d9c7123-9d12-4f14-8258-46cad3994d0e")
 	)
 	(junction
+		(at 326.39 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e52a711-e409-4363-ae9a-f4b9678ba9d6")
+	)
+	(junction
+		(at 293.37 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4094bc08-e100-4a85-bb90-38b702e8f746")
+	)
+	(junction
 		(at 237.49 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5911,6 +6529,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9d3a59ea-3213-4e77-a363-8a806d203fb6")
+	)
+	(junction
+		(at 326.39 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ec641f1-fd2d-4add-ac98-978916a1aa04")
 	)
 	(junction
 		(at 73.66 260.35)
@@ -6106,6 +6730,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 113.03) (xy 262.89 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "078aa512-a57a-471f-a587-cbc6f9e4f6e7")
+	)
+	(wire
+		(pts
 			(xy 194.31 245.11) (xy 189.23 245.11)
 		)
 		(stroke
@@ -6126,6 +6760,16 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 92.71) (xy 293.37 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ae7b88d-1674-497c-b9e0-2beca175cde1")
+	)
+	(wire
+		(pts
 			(xy 50.8 28.448) (xy 55.88 28.448)
 		)
 		(stroke
@@ -6133,6 +6777,16 @@
 			(type default)
 		)
 		(uuid "0b3936e0-9842-44b0-9fe0-b6395d8e97f6")
+	)
+	(wire
+		(pts
+			(xy 251.46 107.95) (xy 262.89 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b4bf7ed-20f2-45ea-947b-75d485d9b897")
 	)
 	(wire
 		(pts
@@ -6176,6 +6830,16 @@
 	)
 	(wire
 		(pts
+			(xy 317.5 105.41) (xy 306.07 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10e6f914-3c61-4b13-a7fa-79725d55945e")
+	)
+	(wire
+		(pts
 			(xy 71.12 28.448) (xy 76.2 28.448)
 		)
 		(stroke
@@ -6213,6 +6877,16 @@
 			(type default)
 		)
 		(uuid "14c61425-445e-4d05-9137-efe0d76a5f1b")
+	)
+	(wire
+		(pts
+			(xy 293.37 90.17) (xy 297.18 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14ec309f-cd53-456e-be91-d1b688d79804")
 	)
 	(wire
 		(pts
@@ -6316,6 +6990,16 @@
 	)
 	(wire
 		(pts
+			(xy 285.75 107.95) (xy 278.13 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27385529-6aa1-4c3c-9a06-f59e89c619f8")
+	)
+	(wire
+		(pts
 			(xy 378.46 57.15) (xy 379.73 57.15)
 		)
 		(stroke
@@ -6333,6 +7017,16 @@
 			(type default)
 		)
 		(uuid "2c6b8883-e3c3-418e-98ef-137868bdb944")
+	)
+	(wire
+		(pts
+			(xy 351.79 133.35) (xy 379.73 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cf27b8c-7f9e-4090-9a89-45dda960b340")
 	)
 	(wire
 		(pts
@@ -6816,6 +7510,16 @@
 	)
 	(wire
 		(pts
+			(xy 317.5 102.87) (xy 306.07 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "626309ae-89ca-449f-a0e5-c2b934c75a23")
+	)
+	(wire
+		(pts
 			(xy 81.28 28.448) (xy 81.28 30.48)
 		)
 		(stroke
@@ -6933,6 +7637,16 @@
 			(type default)
 		)
 		(uuid "6c3916b6-de02-4cf1-83cc-18d27afb9955")
+	)
+	(wire
+		(pts
+			(xy 326.39 115.57) (xy 330.2 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e713a23-ee3e-4995-9214-00d1c35fc847")
 	)
 	(wire
 		(pts
@@ -7156,6 +7870,26 @@
 	)
 	(wire
 		(pts
+			(xy 309.88 107.95) (xy 306.07 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84fac886-16e5-423a-a661-a4f1206b561e")
+	)
+	(wire
+		(pts
+			(xy 297.18 92.71) (xy 293.37 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "858260d7-a88d-40ea-b56d-afc9aac88d97")
+	)
+	(wire
+		(pts
 			(xy 63.5 269.24) (xy 63.5 260.35)
 		)
 		(stroke
@@ -7256,6 +7990,16 @@
 	)
 	(wire
 		(pts
+			(xy 309.88 110.49) (xy 306.07 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96390900-5d6a-461c-8217-17766b80b231")
+	)
+	(wire
+		(pts
 			(xy 367.03 143.51) (xy 379.73 143.51)
 		)
 		(stroke
@@ -7326,6 +8070,16 @@
 	)
 	(wire
 		(pts
+			(xy 326.39 107.95) (xy 330.2 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0de0f8f-8a01-4b3b-ad4e-e62515305ba9")
+	)
+	(wire
+		(pts
 			(xy 378.46 85.09) (xy 378.46 87.63)
 		)
 		(stroke
@@ -7353,6 +8107,16 @@
 			(type default)
 		)
 		(uuid "a856d783-4bc0-4f65-a811-964e1ec3cbc4")
+	)
+	(wire
+		(pts
+			(xy 326.39 107.95) (xy 322.58 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8f8f78e-04ba-4128-b892-e53b0d83b080")
 	)
 	(wire
 		(pts
@@ -7506,6 +8270,16 @@
 	)
 	(wire
 		(pts
+			(xy 351.79 135.89) (xy 379.73 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2457fca-3781-4b67-a226-dd0fbb31f0a6")
+	)
+	(wire
+		(pts
 			(xy 378.46 72.39) (xy 379.73 72.39)
 		)
 		(stroke
@@ -7613,6 +8387,16 @@
 			(type default)
 		)
 		(uuid "cc63124f-6872-4f7f-b813-24dbb89c1b17")
+	)
+	(wire
+		(pts
+			(xy 304.8 92.71) (xy 306.07 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccbb2207-0502-40f7-952c-0268972864bf")
 	)
 	(wire
 		(pts
@@ -7816,6 +8600,16 @@
 	)
 	(wire
 		(pts
+			(xy 304.8 90.17) (xy 306.07 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0730be0-b062-49a9-817a-39aee8535f70")
+	)
+	(wire
+		(pts
 			(xy 378.46 77.47) (xy 379.73 77.47)
 		)
 		(stroke
@@ -7976,6 +8770,26 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 85.09) (xy 293.37 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f631ec11-4b0f-4125-b711-33d02a81a7dd")
+	)
+	(wire
+		(pts
+			(xy 326.39 115.57) (xy 322.58 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f735d76d-9eaf-4c7f-8f76-a2ce739ed4a4")
+	)
+	(wire
+		(pts
 			(xy 73.66 110.49) (xy 73.66 106.68)
 		)
 		(stroke
@@ -8084,6 +8898,16 @@
 		)
 		(uuid "ff7e4303-ea96-4fda-af8b-81594c7bffff")
 	)
+	(label "DISP_SCL"
+		(at 317.5 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "012a4c7e-efdc-408d-9b29-6846419a923b")
+	)
 	(label "USB_PRE_P"
 		(at 377.19 237.49 180)
 		(effects
@@ -8093,6 +8917,16 @@
 			(justify right bottom)
 		)
 		(uuid "04b538d6-4af8-4c9c-88aa-f16f0ab53879")
+	)
+	(label "ENC_B"
+		(at 251.46 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0879a141-e7f3-4c2f-b496-379f9d05936f")
 	)
 	(label "SWCLK"
 		(at 306.07 30.48 180)
@@ -8134,6 +8968,16 @@
 		)
 		(uuid "267f5583-3198-4ca5-aa1d-be3eab8ed09c")
 	)
+	(label "ENC_S"
+		(at 285.75 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "38619ddd-1c58-4918-b329-0e32244599d8")
+	)
 	(label "MEM_CS"
 		(at 241.3 153.67 0)
 		(effects
@@ -8173,6 +9017,16 @@
 			(justify left bottom)
 		)
 		(uuid "41cd5f78-41dd-4b6e-afbf-f37a5fc2a1c2")
+	)
+	(label "ENC_A"
+		(at 251.46 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "46d46fb3-f109-4602-90bc-962a8b02f7ba")
 	)
 	(label "COREVDD"
 		(at 377.19 54.61 180)
@@ -8224,6 +9078,16 @@
 		)
 		(uuid "540c6727-e74f-4121-ac20-338f5e48d80e")
 	)
+	(label "DISP_SDA"
+		(at 351.79 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "584f9594-01fc-476c-8028-6f4faa2d9ffa")
+	)
 	(label "WIFI_25"
 		(at 369.57 156.21 0)
 		(effects
@@ -8263,6 +9127,16 @@
 			(justify left bottom)
 		)
 		(uuid "7272fa61-01ae-40c8-b2b5-a088db6020ac")
+	)
+	(label "DISP_SDA"
+		(at 317.5 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "746c4510-653c-4c20-9328-37fc9138f9e4")
 	)
 	(label "USB_PRE_N"
 		(at 377.19 234.95 180)
@@ -8313,6 +9187,16 @@
 			(justify left bottom)
 		)
 		(uuid "81607757-ebc8-4a99-88fe-83904f790281")
+	)
+	(label "DISP_SCL"
+		(at 351.79 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "820722c8-d718-4cec-a2f0-e9a027895e91")
 	)
 	(label "WIFI_23"
 		(at 73.66 269.24 90)
@@ -8454,6 +9338,16 @@
 		)
 		(uuid "cc42bfbe-1d92-48c8-84d3-c99649da14c7")
 	)
+	(label "DISP_SCL"
+		(at 306.07 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d53ae3eb-2c8a-49c4-a8f9-96f8f0701795")
+	)
 	(label "5V_filtered"
 		(at 68.58 106.68 0)
 		(effects
@@ -8493,6 +9387,16 @@
 			(justify left bottom)
 		)
 		(uuid "f817d7c1-6608-4ea7-9003-0d81ff1542d7")
+	)
+	(label "DISP_SDA"
+		(at 306.07 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f8b91b1f-ba0b-43a8-b58f-bd66d9343bce")
 	)
 	(label "USB_P"
 		(at 237.49 248.92 0)
@@ -9470,6 +10374,72 @@
 		)
 	)
 	(symbol
+		(lib_id "TINRS - Wobbler (pico)sch-eagle-import:GND")
+		(at 309.88 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "12cba4f9-b15e-4c45-aee9-7eb174e5e0d5")
+		(property "Reference" "#GND045"
+			(at 309.88 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 309.88 114.3 0)
+			(effects
+				(font
+					(size 0.762 0.6477)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" ""
+			(at 309.88 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 309.88 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 309.88 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0d7e390-c657-428a-af22-ecb1d444f430")
+		)
+		(instances
+			(project "anarchytechnobox"
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35/d16ac510-e9e9-486e-8ddb-b850ff4462be"
+					(reference "#GND045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 57.15 148.59 0)
 		(unit 1)
@@ -10389,6 +11359,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 300.99 107.95 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "287cca45-6549-4849-b669-b5441856bf31")
+		(property "Reference" "J8"
+			(at 300.99 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 300.99 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 300.99 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 300.99 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 300.99 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "25e992e8-7165-4e8b-bc61-08891236c863")
+		)
+		(pin "3"
+			(uuid "9ae57948-70e2-4eb6-af98-6a1236a3afbf")
+		)
+		(pin "4"
+			(uuid "93dd331c-de17-460d-aa16-eeb01a5f6bf6")
+		)
+		(pin "1"
+			(uuid "6045a370-5094-4e76-b09e-89a9397b1102")
+		)
+		(instances
+			(project ""
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35/d16ac510-e9e9-486e-8ddb-b850ff4462be"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TINRS - Wobbler (pico)sch-eagle-import:GND")
 		(at 228.6 261.62 0)
 		(unit 1)
@@ -10838,6 +11881,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 309.88 107.95 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "364a0140-2f94-4c40-9aaa-fdd5df0059aa")
+		(property "Reference" "#PWR0174"
+			(at 306.07 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 313.69 107.9499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 309.88 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 309.88 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 309.88 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27220720-6b7f-467d-9dcf-3a77df4baada")
+		)
+		(instances
+			(project "anarchytechnobox"
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35/d16ac510-e9e9-486e-8ddb-b850ff4462be"
+					(reference "#PWR0174")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TINRS - Wobbler (pico)sch-eagle-import:GND")
 		(at 213.36 160.02 0)
 		(unit 1)
@@ -11211,6 +12321,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 330.2 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43ac9817-e7dc-4eaf-a2f2-a061ba8067aa")
+		(property "Reference" "C93"
+			(at 333.121 110.5916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 333.121 112.903 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 331.1652 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 330.2 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 330.2 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "311-1344-1-ND"
+			(at 330.2 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b1a9fa8-fa66-4a6b-978c-7fe77b1914f2")
+		)
+		(pin "2"
+			(uuid "9b3ce267-116f-445a-b858-4a2742f832cd")
+		)
+		(instances
+			(project "anarchytechnobox"
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35/d16ac510-e9e9-486e-8ddb-b850ff4462be"
+					(reference "C93")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TINRS - Wobbler (pico)sch-eagle-import:R-0603")
 		(at 135.89 248.92 90)
 		(unit 1)
@@ -11352,6 +12540,75 @@
 			(project "RP2350BMCU"
 				(path "/bc49bd63-e3c6-49b5-92bb-9ce0377f4496"
 					(reference "#GND?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TINRS - Wobbler (pico)sch-eagle-import:R-0402")
+		(at 300.99 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "47f2f058-b004-45c7-8269-ba60c1fd7aa3")
+		(property "Reference" "R47"
+			(at 297.688 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "2k"
+			(at 302.514 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 300.99 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 300.99 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 300.99 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ba1cd32-e7bb-4487-ad2e-0cfe45d7bfe3")
+		)
+		(pin "2"
+			(uuid "2ec5c8ed-828a-47f1-8598-d52e5093ba16")
+		)
+		(instances
+			(project "anarchytechnobox"
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35/d16ac510-e9e9-486e-8ddb-b850ff4462be"
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -11797,6 +13054,72 @@
 			(project "RP2350BMCU"
 				(path "/bc49bd63-e3c6-49b5-92bb-9ce0377f4496"
 					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TINRS - Wobbler (pico)sch-eagle-import:GND")
+		(at 280.67 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "516e432b-4ecd-42e2-bc66-8dff8dbbbcc8")
+		(property "Reference" "#GND043"
+			(at 280.67 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 281.94 113.03 0)
+			(effects
+				(font
+					(size 0.762 0.6477)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" ""
+			(at 280.67 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 280.67 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 280.67 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55066147-5803-441e-9591-caa17d1f66bb")
+		)
+		(instances
+			(project "anarchytechnobox"
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35/d16ac510-e9e9-486e-8ddb-b850ff4462be"
+					(reference "#GND043")
 					(unit 1)
 				)
 			)
@@ -14200,6 +15523,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 293.37 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97bc8d43-0641-46f7-9119-818bff3629cf")
+		(property "Reference" "#PWR03"
+			(at 293.37 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 293.37 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 293.37 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 293.37 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 293.37 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91ec673e-e785-4f91-8027-28ec4453a4f7")
+		)
+		(instances
+			(project "anarchytechnobox"
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35/d16ac510-e9e9-486e-8ddb-b850ff4462be"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TINRS - Wobbler (pico)sch-eagle-import:C-EUC0402")
 		(at 57.15 151.13 0)
 		(unit 1)
@@ -14416,6 +15805,81 @@
 			(project "RP2350BMCU"
 				(path "/bc49bd63-e3c6-49b5-92bb-9ce0377f4496"
 					(reference "#GND?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TINRS - Wobbler (pico)sch-eagle-import:C-0402")
+		(at 213.36 153.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9ec9039c-2d73-4aef-b31e-ce90861dcd7c")
+		(property "Reference" "C27"
+			(at 212.09 155.448 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100nF"
+			(at 216.408 155.956 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 213.36 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "189cf9ae-02b2-48f7-b008-e6914e26bb76")
+		)
+		(pin "2"
+			(uuid "1f930f8f-0b8d-4b59-8a79-bbad78942d7e")
+		)
+		(instances
+			(project "anarchytechnobox"
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35/d16ac510-e9e9-486e-8ddb-b850ff4462be"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+			(project "RP2350BMCU"
+				(path "/bc49bd63-e3c6-49b5-92bb-9ce0377f4496"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -14855,15 +16319,15 @@
 	)
 	(symbol
 		(lib_id "TINRS - Wobbler (pico)sch-eagle-import:C-0402")
-		(at 213.36 153.67 90)
+		(at 322.58 111.76 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "ae928d4a-7ae6-4c45-b497-20cfe2549915")
-		(property "Reference" "C27"
-			(at 212.09 155.448 0)
+		(property "Reference" "C92"
+			(at 321.31 113.538 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -14872,7 +16336,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 216.408 155.956 0)
+			(at 325.628 114.046 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -14881,7 +16345,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 213.36 153.67 0)
+			(at 322.58 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14890,7 +16354,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 153.67 0)
+			(at 322.58 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14899,7 +16363,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 213.36 153.67 0)
+			(at 322.58 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14916,13 +16380,7 @@
 		(instances
 			(project "anarchytechnobox"
 				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35/d16ac510-e9e9-486e-8ddb-b850ff4462be"
-					(reference "C27")
-					(unit 1)
-				)
-			)
-			(project "RP2350BMCU"
-				(path "/bc49bd63-e3c6-49b5-92bb-9ce0377f4496"
-					(reference "C?")
+					(reference "C92")
 					(unit 1)
 				)
 			)
@@ -15504,6 +16962,72 @@
 			(project "RP2350BMCU"
 				(path "/bc49bd63-e3c6-49b5-92bb-9ce0377f4496"
 					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TINRS - Wobbler (pico)sch-eagle-import:GND")
+		(at 270.51 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3137b87-593a-4cee-b5d5-85e217b861db")
+		(property "Reference" "#GND044"
+			(at 270.51 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 270.51 121.92 0)
+			(effects
+				(font
+					(size 0.762 0.6477)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" ""
+			(at 270.51 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 270.51 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb713d9b-1226-4c11-b680-639466e67413")
+		)
+		(instances
+			(project "anarchytechnobox"
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35/d16ac510-e9e9-486e-8ddb-b850ff4462be"
+					(reference "#GND044")
 					(unit 1)
 				)
 			)
@@ -16118,6 +17642,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:RotaryEncoder_Switch_MP")
+		(at 270.51 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf53a7c9-1b02-4393-a77f-09372caa3d44")
+		(property "Reference" "SW2"
+			(at 270.51 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RotaryEncoder_Switch_MP"
+			(at 270.51 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_CircularMountingHoles"
+			(at 266.7 106.426 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 270.51 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch and MP Pin"
+			(at 270.51 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "876e35ac-6103-447e-b4c5-00fe30610f98")
+		)
+		(pin "C"
+			(uuid "99d18c26-601a-4df0-81fe-33f41eb1f906")
+		)
+		(pin "B"
+			(uuid "952e8323-f918-4389-b04a-f7404f633a60")
+		)
+		(pin "MP"
+			(uuid "b15e2d9a-09ec-4e05-8073-5e7ae3d42ae6")
+		)
+		(pin "S1"
+			(uuid "d2a3f87a-ede7-49bb-949e-08dd6f6629f8")
+		)
+		(pin "S2"
+			(uuid "c568d288-d780-420e-bd29-bc85230a5bce")
+		)
+		(instances
+			(project ""
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35/d16ac510-e9e9-486e-8ddb-b850ff4462be"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "RPI_RMC20452T:RPI_RMC20452T")
 		(at 68.58 243.84 0)
 		(unit 1)
@@ -16634,34 +18238,34 @@
 		)
 	)
 	(symbol
-		(lib_id "TINRS - Wobbler (pico)sch-eagle-import:GND")
-		(at 222.25 179.07 0)
+		(lib_id "TINRS - Wobbler (pico)sch-eagle-import:R-0402")
+		(at 300.99 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d9fd5157-a355-4fdf-9e81-462963889ea2")
-		(property "Reference" "#GND024"
-			(at 222.25 179.07 0)
+		(uuid "d77da1a9-ae51-4dd6-8a32-c8bf56c67d0b")
+		(property "Reference" "R48"
+			(at 297.688 92.456 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.27 1.0795)
 				)
-				(hide yes)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "GND"
-			(at 222.25 180.34 0)
+		(property "Value" "2k"
+			(at 302.514 92.456 0)
 			(effects
 				(font
-					(size 0.762 0.6477)
+					(size 1.27 1.0795)
 				)
-				(justify top)
+				(justify left bottom)
 			)
 		)
-		(property "Footprint" ""
-			(at 222.25 179.07 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 300.99 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16670,7 +18274,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 179.07 0)
+			(at 300.99 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16679,7 +18283,76 @@
 			)
 		)
 		(property "Description" ""
-			(at 222.25 179.07 0)
+			(at 300.99 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5b91f86-9f5d-414f-bd26-a00ea673443f")
+		)
+		(pin "2"
+			(uuid "00552567-8117-4266-8b3a-ea51c20566a0")
+		)
+		(instances
+			(project "anarchytechnobox"
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35/d16ac510-e9e9-486e-8ddb-b850ff4462be"
+					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TINRS - Wobbler (pico)sch-eagle-import:GND")
+		(at 260.35 110.49 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d9fd5157-a355-4fdf-9e81-462963889ea2")
+		(property "Reference" "#GND0101"
+			(at 260.35 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 259.08 110.49 0)
+			(effects
+				(font
+					(size 0.762 0.6477)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 260.35 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16693,13 +18366,73 @@
 		(instances
 			(project "anarchytechnobox"
 				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35/d16ac510-e9e9-486e-8ddb-b850ff4462be"
-					(reference "#GND024")
+					(reference "#GND0101")
 					(unit 1)
 				)
 			)
-			(project "RP2350BMCU"
-				(path "/bc49bd63-e3c6-49b5-92bb-9ce0377f4496"
-					(reference "#GND?")
+		)
+	)
+	(symbol
+		(lib_id "TINRS - Wobbler (pico)sch-eagle-import:GND")
+		(at 326.39 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dba72a7d-3913-4fd5-b451-414d5428c2f8")
+		(property "Reference" "#GND046"
+			(at 326.39 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 326.39 119.38 0)
+			(effects
+				(font
+					(size 0.762 0.6477)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" ""
+			(at 326.39 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 326.39 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 326.39 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e4d9ff2-e9df-4998-a577-ab57461f9e92")
+		)
+		(instances
+			(project "anarchytechnobox"
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35/d16ac510-e9e9-486e-8ddb-b850ff4462be"
+					(reference "#GND046")
 					(unit 1)
 				)
 			)
@@ -17650,6 +19383,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 326.39 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f76161c1-18a2-4f37-b265-eaa4941e7f9b")
+		(property "Reference" "#PWR0173"
+			(at 326.39 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 326.39 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 326.39 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 326.39 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 326.39 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9727e143-bc6e-4251-a705-6d438a32c42a")
+		)
+		(instances
+			(project "anarchytechnobox"
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35/d16ac510-e9e9-486e-8ddb-b850ff4462be"
+					(reference "#PWR0173")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TINRS - Wobbler (pico)sch-eagle-import:R-0402")
 		(at 247.65 248.92 0)
 		(unit 1)
@@ -17862,6 +19661,78 @@
 			(project "RP2350BMCU"
 				(path "/bc49bd63-e3c6-49b5-92bb-9ce0377f4496"
 					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TINRS - Wobbler (pico)sch-eagle-import:GND")
+		(at 222.25 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ffa0d501-9d6f-442e-903e-c31e123976c9")
+		(property "Reference" "#GND024"
+			(at 222.25 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 222.25 180.34 0)
+			(effects
+				(font
+					(size 0.762 0.6477)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9d995aa-8669-4f7e-99db-2d919a2f09b3")
+		)
+		(instances
+			(project "anarchytechnobox"
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35/d16ac510-e9e9-486e-8ddb-b850ff4462be"
+					(reference "#GND024")
+					(unit 1)
+				)
+			)
+			(project "RP2350BMCU"
+				(path "/bc49bd63-e3c6-49b5-92bb-9ce0377f4496"
+					(reference "#GND?")
 					(unit 1)
 				)
 			)
