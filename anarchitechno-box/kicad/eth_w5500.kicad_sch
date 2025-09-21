@@ -8959,7 +8959,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:ARJM11B1-009-AB-EW2"
+		(property "Footprint" "parts:ARJM11B1-009-AB-EW2"
 			(at 212.09 74.93 0)
 			(effects
 				(font

@@ -1675,6 +1675,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Can use DRV8243SQDGQRQ1 or DRV8243PQDGQRQ1\n(HVSSOP packages)\n\nDO NOT USE DRV8243H!\n-H means hardware strapping, has no SPI toys\n\nIf DRV8243 is out of stock....\nDRV8244 and DRV8245 are functionally compatible with higher output current\nBUT higher over current protection which may make these features useless\nBUT may need different IPROPI resistor (if we use cycle-by-cycle current limiting)"
+		(exclude_from_sim no)
+		(at 14.986 24.892 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "45d29e62-3f36-4193-bd1b-21b36aae83df")
+	)
 	(text "1000uF+ caps TBD:\n\n- EKZN500ELL102MK35S (1000uF 50V, 3.81A ripple / 21mOhm ESR)\n- EGPD500ELL132MK35H (1300uF 50V, 4.81A ripple / 42mOhm ESR)"
 		(exclude_from_sim no)
 		(at 198.882 56.388 0)
@@ -1684,6 +1695,17 @@
 			)
 		)
 		(uuid "7576c4c8-12ef-463b-af2c-4cb3b9fd8bf0")
+	)
+	(text "V(IPROPI) is compared with V(ITRIP) to enable cycle-by-cycle current limiting.\n\nV(ITRIP) is generated inside the chip, and can be set to (via SPI):\n0b000 = OFF\n0b001 = 1.18V\n0b010 = 1.41V\n0b011 = 1.65V\n0b100 = 1.98V\n0b101 = 2.31V\n0b110 = 2.64V\n0b111 = 2.97V\n\nITRIP = Ioutput / APROPI\nAPROPI = 3075A/A for DRV8243\nAPROPI = 4570A/A for DRV8244\n\nDRV8243: limit @ 15A => 15A/3075A/A = 4.88mA, then V=I*R => 2.97V = 4.88mA * x => x = 608R\nDRV8244: 15A/4570A/A = 3.28mA => x=904R"
+		(exclude_from_sim no)
+		(at 29.718 153.416 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e8cb4750-d888-4294-9696-ac1e729bfa6d")
 	)
 	(junction
 		(at 144.78 67.31)
@@ -3258,8 +3280,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
-			(at 114.3 114.808 90)
+		(property "Value" "620R"
+			(at 114.3 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
