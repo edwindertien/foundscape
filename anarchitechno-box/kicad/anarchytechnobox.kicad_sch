@@ -1230,6 +1230,16 @@
 		)
 		(uuid "36a6a931-4cfe-48eb-8e9c-adeff0b76781")
 	)
+	(wire
+		(pts
+			(xy 91.44 88.9) (xy 99.06 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36e190d9-4038-4c28-a442-34449bfd3b24")
+	)
 	(polyline
 		(pts
 			(xy 332.74 102.87) (xy 332.74 83.82)
@@ -1919,6 +1929,16 @@
 			(type default)
 		)
 		(uuid "ed722269-bdd6-4773-ae82-39e725d2ddb8")
+	)
+	(wire
+		(pts
+			(xy 91.44 86.36) (xy 99.06 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed94f76c-ff1d-4b42-89c3-6cdc94533a35")
 	)
 	(wire
 		(pts
@@ -6859,6 +6879,89 @@
 			(project "anarchytechnobox"
 				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 69.85 78.74)
+		(size 21.59 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4ac30784-1697-4f10-a090-83a6b536d188")
+		(property "Sheetname" "RS485"
+			(at 69.85 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RS485.kicad_sch"
+			(at 69.85 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "485_~{RE}" input
+			(at 69.85 82.55 180)
+			(uuid "5b36e20e-ac00-4460-8ae1-dac5ae864020")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FROM_RS485" output
+			(at 91.44 88.9 0)
+			(uuid "b9a84f02-088f-4d4f-ade4-a691a9e85133")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "485_DE" input
+			(at 69.85 85.09 180)
+			(uuid "bc93580f-326c-4ffa-a597-ec800b65ff0b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TO_RS485" input
+			(at 91.44 86.36 0)
+			(uuid "db4a34f0-fac9-46ee-a6de-ab77a90881b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "anarchytechnobox"
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35"
+					(page "12")
 				)
 			)
 		)
