@@ -1,7 +1,7 @@
 (footprint "ARJM11B1-009-AB-EW2"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -11.25 0)
@@ -20,19 +20,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "f702b320-084e-420c-9aa5-4a1190a93fdd")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 -8.89 90)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "77b3c780-7689-47a3-b82e-a100e30a8857")
 		(effects
 			(font
 				(size 1 1)
@@ -295,7 +282,8 @@
 		(remove_unused_layers no)
 		(uuid "5bcc3831-6ef8-4a55-baf6-33781b711ae2")
 	)
-	(model "/home/hans/Hardware/Library/3D/Connectors/ARJM11B1-009-AB-EW2.stp"
+	(embedded_fonts no)
+	(model "./3d/ARJM11B1-009-AB-EW2.stp"
 		(offset
 			(xyz 0 0 0)
 		)
