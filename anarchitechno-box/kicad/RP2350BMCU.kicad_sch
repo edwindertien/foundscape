@@ -635,6 +635,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:SS34"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SS34"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMA"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "40V 3A Schottky Diode, SMA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SMA*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SS34_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SS34_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "RPI_RMC20452T:RPI_RMC20452T"
 			(pin_names
 				(offset 1.016)
@@ -6716,7 +6866,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 240.03) (xy 207.01 240.03)
+			(xy 187.96 240.03) (xy 193.04 240.03)
 		)
 		(stroke
 			(width 0)
@@ -8225,7 +8375,7 @@
 		(uuid "afc14165-10f6-42a9-8171-6a6116dac9e5")
 	)
 	(label "BREAKOUT_5V"
-		(at 189.23 240.03 0)
+		(at 193.04 240.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8233,6 +8383,16 @@
 			(justify left bottom)
 		)
 		(uuid "b3e61cef-d281-412b-9817-125ee9e86b73")
+	)
+	(label "BREAKOUT_5V"
+		(at 209.55 214.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b873254d-adb9-406b-9d60-7ec9a39d6c24")
 	)
 	(label "COREVDD"
 		(at 121.92 22.86 0)
@@ -14262,6 +14422,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SS34")
+		(at 205.74 214.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a13da656-b5e9-4fc5-b5de-9adefd9193fe")
+		(property "Reference" "D16"
+			(at 205.4225 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS34"
+			(at 205.4225 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 205.74 219.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
+			(at 205.74 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 3A Schottky Diode, SMA"
+			(at 205.74 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5c6a840f-8b73-4b9e-aa7c-e2200397765e")
+		)
+		(pin "1"
+			(uuid "4e62afd4-45a5-4016-9fb8-a66739cd0787")
+		)
+		(instances
+			(project ""
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35/d16ac510-e9e9-486e-8ddb-b850ff4462be"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 90.17 246.38 270)
 		(unit 1)
@@ -16913,7 +17141,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 207.01 240.03 0)
+		(at 201.93 214.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16922,7 +17150,7 @@
 		(fields_autoplaced yes)
 		(uuid "e86ebeb8-afc6-41da-8f15-095eeb41eb9d")
 		(property "Reference" "#PWR044"
-			(at 207.01 243.84 0)
+			(at 201.93 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16931,7 +17159,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 207.01 234.95 0)
+			(at 201.93 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16939,7 +17167,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 240.03 0)
+			(at 201.93 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16948,7 +17176,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 240.03 0)
+			(at 201.93 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16957,7 +17185,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 207.01 240.03 0)
+			(at 201.93 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)

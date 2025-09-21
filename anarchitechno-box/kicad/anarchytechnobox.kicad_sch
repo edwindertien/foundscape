@@ -2180,7 +2180,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 39.37) (xy 355.6 39.37)
+			(xy 350.52 39.37) (xy 372.11 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2370,6 +2370,16 @@
 	)
 	(wire
 		(pts
+			(xy 355.6 -19.05) (xy 365.76 -19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56185225-e2dc-40a9-aa35-b5d3f3c92545")
+	)
+	(wire
+		(pts
 			(xy 292.1 63.5) (xy 309.88 63.5)
 		)
 		(stroke
@@ -2397,6 +2407,16 @@
 			(type default)
 		)
 		(uuid "648fed46-a851-4a98-979e-544f07c3ffc4")
+	)
+	(wire
+		(pts
+			(xy 424.18 -19.05) (xy 434.34 -19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "658d8ea6-b9b7-4982-b665-90952b26a291")
 	)
 	(wire
 		(pts
@@ -2510,7 +2530,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 29.21) (xy 355.6 29.21)
+			(xy 350.52 29.21) (xy 372.11 29.21)
 		)
 		(stroke
 			(width 0)
@@ -2520,7 +2540,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 31.75) (xy 355.6 31.75)
+			(xy 350.52 31.75) (xy 372.11 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2590,7 +2610,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 88.9) (xy 355.6 88.9)
+			(xy 350.52 88.9) (xy 372.11 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2620,7 +2640,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 99.06) (xy 355.6 99.06)
+			(xy 350.52 99.06) (xy 372.11 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2647,6 +2667,16 @@
 			(type default)
 		)
 		(uuid "aa1dd83a-5e1f-499c-a31f-14bbb49ca475")
+	)
+	(wire
+		(pts
+			(xy 332.74 -19.05) (xy 342.9 -19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b120321b-fc57-4278-a57e-e610346f5de3")
 	)
 	(wire
 		(pts
@@ -2680,7 +2710,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 96.52) (xy 355.6 96.52)
+			(xy 350.52 96.52) (xy 372.11 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2720,7 +2750,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 86.36) (xy 355.6 86.36)
+			(xy 350.52 86.36) (xy 372.11 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2830,6 +2860,16 @@
 	)
 	(wire
 		(pts
+			(xy 309.88 -19.05) (xy 320.04 -19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1f0001d-d4ac-41ff-93b0-209b39c5e05d")
+	)
+	(wire
+		(pts
 			(xy 270.51 109.22) (xy 309.88 109.22)
 		)
 		(stroke
@@ -2840,7 +2880,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 41.91) (xy 355.6 41.91)
+			(xy 350.52 41.91) (xy 372.11 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2867,6 +2907,16 @@
 			(type default)
 		)
 		(uuid "ddb71211-d794-43e2-a1fb-fa3211d4c490")
+	)
+	(wire
+		(pts
+			(xy 401.32 -19.05) (xy 411.48 -19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de4dd4e9-aba5-443c-baa0-ba594e543b30")
 	)
 	(wire
 		(pts
@@ -2980,6 +3030,16 @@
 	)
 	(wire
 		(pts
+			(xy 378.46 -19.05) (xy 388.62 -19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb82777e-3bf0-46b1-b4aa-a4d644dfe07f")
+	)
+	(wire
+		(pts
 			(xy 68.58 140.97) (xy 99.06 140.97)
 		)
 		(stroke
@@ -2998,6 +3058,46 @@
 		)
 		(uuid "ffa1bf03-8887-4658-99f9-85f3e40439e8")
 	)
+	(label "HB_1_OUT_A"
+		(at 354.33 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "150a3963-8f6f-4e2f-90ed-237e10adb86d")
+	)
+	(label "HB_2_OUT_C"
+		(at 354.33 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "37d0ee09-4f82-4ad2-805a-22b03c58fd04")
+	)
+	(label "HB_2_OUT_D"
+		(at 354.33 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "50f565ec-76a5-4bce-aa43-20fa30d77c13")
+	)
+	(label "HB_2_OUT_B"
+		(at 354.33 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6adab654-e410-49f5-a207-162f7521c36a")
+	)
 	(label "LED_STRING"
 		(at 274.32 -19.05 180)
 		(effects
@@ -3007,6 +3107,26 @@
 			(justify right bottom)
 		)
 		(uuid "6bd2fc2e-1070-4c9a-9e7d-8e93049297f1")
+	)
+	(label "HB_1_OUT_B"
+		(at 354.33 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8f8f5ef2-e2b8-4b85-b311-12ba47e01efd")
+	)
+	(label "HB_1_OUT_D"
+		(at 354.33 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb496619-d819-495b-ab39-b1da78b033dc")
 	)
 	(label "LED_STRING"
 		(at 85.09 154.94 0)
@@ -3018,9 +3138,29 @@
 		)
 		(uuid "e6ad6fa4-e751-4ec1-92b0-83244a8c5917")
 	)
+	(label "HB_1_OUT_C"
+		(at 354.33 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6340248-925d-42b8-aa82-7a1c82ca742a")
+	)
+	(label "HB_2_OUT_A"
+		(at 354.33 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff20c753-d6c6-45a6-a756-ed08dca60ff0")
+	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 360.68 96.52 0)
+		(at 377.19 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3029,7 +3169,7 @@
 		(fields_autoplaced yes)
 		(uuid "0214fb6a-2830-4e88-b9a6-ce4467928ab0")
 		(property "Reference" "J6"
-			(at 363.22 96.5199 0)
+			(at 379.73 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3038,7 +3178,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 363.22 99.0599 0)
+			(at 379.73 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3047,7 +3187,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal"
-			(at 360.68 96.52 0)
+			(at 377.19 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3056,7 +3196,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 360.68 96.52 0)
+			(at 377.19 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3065,7 +3205,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 360.68 96.52 0)
+			(at 377.19 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3083,6 +3223,71 @@
 			(project "anarchytechnobox"
 				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 407.67 -11.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0902aaa2-0972-4c5e-be0d-d2f3aae64d5f")
+		(property "Reference" "#PWR0163"
+			(at 407.67 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 407.416 -14.986 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 407.67 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 407.67 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 407.67 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2dca71ac-70d7-4ae6-8eec-0338a993f0c6")
+		)
+		(instances
+			(project "anarchytechnobox"
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35"
+					(reference "#PWR0163")
 					(unit 1)
 				)
 			)
@@ -3160,6 +3365,279 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
+		(at 326.39 -27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "109166b0-9873-4776-b601-c54b01238a1d")
+		(property "Reference" "#PWR0156"
+			(at 326.39 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 326.39 -31.496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 326.39 -27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 326.39 -27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 326.39 -27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db459377-a43c-434c-949d-5890f720bc0b")
+		)
+		(instances
+			(project "anarchytechnobox"
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35"
+					(reference "#PWR0156")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TINRS - Wobbler (pico)sch-eagle-import:GND")
+		(at 326.39 -11.43 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "13e71d50-926a-4a0b-8743-cdd235967b00")
+		(property "Reference" "#GND032"
+			(at 326.39 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 326.136 -9.906 0)
+			(effects
+				(font
+					(size 0.762 0.6477)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" ""
+			(at 326.39 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 326.39 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 326.39 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5bcfe38-41fe-48af-8296-9fc4e723201e")
+		)
+		(instances
+			(project "anarchytechnobox"
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35"
+					(reference "#GND032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 430.53 -11.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1504e08d-ee0e-46d5-9490-4f745dc0072a")
+		(property "Reference" "#PWR0165"
+			(at 430.53 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 430.276 -14.986 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 430.53 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 430.53 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 430.53 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43afe1aa-c730-450c-9fa1-fb457aadd149")
+		)
+		(instances
+			(project "anarchytechnobox"
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35"
+					(reference "#PWR0165")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TinyLEDs:XL-1010")
+		(at 440.69 -19.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15407847-0d14-4e00-ab3a-ffe886d7fc42")
+		(property "Reference" "D23"
+			(at 442.976 -22.606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "C5349953"
+			(at 440.69 -19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TinyLEDs:XL-1010"
+			(at 454.914 -12.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf"
+			(at 449.072 -14.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 440.69 -19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f14d070-b5bd-44ad-ac85-337deb23ff8c")
+		)
+		(pin "2"
+			(uuid "93736dd6-703f-4776-b1c3-973c631de728")
+		)
+		(pin "3"
+			(uuid "b7e73f1f-3035-432f-9536-bbdd48c0e9df")
+		)
+		(pin "4"
+			(uuid "84f8392c-0d7b-4bcc-afd2-1c0199d830b4")
+		)
+		(instances
+			(project "anarchytechnobox"
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
 		(at 280.67 -27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3218,6 +3696,149 @@
 			(project "anarchytechnobox"
 				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TINRS - Wobbler (pico)sch-eagle-import:GND")
+		(at 417.83 -11.43 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "16e6021d-8f51-48dd-946d-b5a249bdab45")
+		(property "Reference" "#GND040"
+			(at 417.83 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 417.576 -9.906 0)
+			(effects
+				(font
+					(size 0.762 0.6477)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" ""
+			(at 417.83 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 417.83 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 417.83 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ea9a022-9b8d-4aff-ae56-ab616182b0c9")
+		)
+		(instances
+			(project "anarchytechnobox"
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35"
+					(reference "#GND040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TinyLEDs:XL-1010")
+		(at 394.97 -19.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e3e31d8-3bac-49d4-88a3-ad0f564768ac")
+		(property "Reference" "D21"
+			(at 397.256 -22.606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "C5349953"
+			(at 394.97 -19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TinyLEDs:XL-1010"
+			(at 409.194 -12.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf"
+			(at 403.352 -14.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 394.97 -19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bbc77637-95d0-47ef-850d-91dce8e0c34e")
+		)
+		(pin "2"
+			(uuid "42569fa0-90b5-46bc-8210-e3f54248dbbc")
+		)
+		(pin "3"
+			(uuid "35c8942d-e4b4-4972-b9c1-155a42689ee8")
+		)
+		(pin "4"
+			(uuid "055535b6-da28-4f4d-a041-59f10ede906d")
+		)
+		(instances
+			(project "anarchytechnobox"
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35"
+					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -3296,6 +3917,149 @@
 		)
 	)
 	(symbol
+		(lib_id "TINRS - Wobbler (pico)sch-eagle-import:GND")
+		(at 361.95 -1.27 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1fae5130-89ca-4874-9420-c58177556a3e")
+		(property "Reference" "#GND035"
+			(at 361.95 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 361.696 0.254 0)
+			(effects
+				(font
+					(size 0.762 0.6477)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" ""
+			(at 361.95 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 361.95 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 361.95 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2a52c9d-a507-4f86-a934-2fe4cb9908f1")
+		)
+		(instances
+			(project "anarchytechnobox"
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35"
+					(reference "#GND035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TinyLEDs:XL-1010")
+		(at 326.39 -19.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2012d2df-6455-4f06-838f-3162b153abfb")
+		(property "Reference" "D18"
+			(at 328.676 -22.606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "C5349953"
+			(at 326.39 -19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TinyLEDs:XL-1010"
+			(at 340.614 -12.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf"
+			(at 334.772 -14.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 326.39 -19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ebd0382-6b7a-47c9-8476-8c72d4cb94ca")
+		)
+		(pin "2"
+			(uuid "58ee6d0e-b1a8-4d2f-8430-c82a5bea2a3f")
+		)
+		(pin "3"
+			(uuid "df7f94a9-bd96-4a41-9b68-5ba0ba8b3e14")
+		)
+		(pin "4"
+			(uuid "6684169f-325a-4c51-b874-8606a4ecaf22")
+		)
+		(instances
+			(project "anarchytechnobox"
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TINRS - Wobbler (pico)sch-eagle-import:C-EUC0402")
 		(at 270.51 -6.35 180)
 		(unit 1)
@@ -3366,7 +4130,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 360.68 29.21 0)
+		(at 377.19 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3375,7 +4139,7 @@
 		(fields_autoplaced yes)
 		(uuid "285f7353-cc12-46bb-8e27-e807f8b5c5b0")
 		(property "Reference" "J3"
-			(at 363.22 29.2099 0)
+			(at 379.73 29.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3384,7 +4148,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 363.22 31.7499 0)
+			(at 379.73 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3393,7 +4157,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal"
-			(at 360.68 29.21 0)
+			(at 377.19 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3402,7 +4166,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 360.68 29.21 0)
+			(at 377.19 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3411,7 +4175,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 360.68 29.21 0)
+			(at 377.19 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3429,6 +4193,203 @@
 			(project ""
 				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TINRS - Wobbler (pico)sch-eagle-import:GND")
+		(at 384.81 -1.27 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2aad4160-2282-4afe-bceb-6f8995c03b1d")
+		(property "Reference" "#GND037"
+			(at 384.81 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 384.556 0.254 0)
+			(effects
+				(font
+					(size 0.762 0.6477)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" ""
+			(at 384.81 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 384.81 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 384.81 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a2092dd-8d91-4f30-a8da-8416b53c96a9")
+		)
+		(instances
+			(project "anarchytechnobox"
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35"
+					(reference "#GND037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 384.81 -11.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2afbc6b3-ce21-4b48-b1af-faf2b2cc75e5")
+		(property "Reference" "#PWR0161"
+			(at 384.81 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 384.556 -14.986 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 384.81 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 384.81 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 384.81 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5503958c-6326-4555-ac94-a82e4e267cd4")
+		)
+		(instances
+			(project "anarchytechnobox"
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35"
+					(reference "#PWR0161")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 417.83 -27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "31867cd9-7f0a-4325-be95-89d2c7bb4138")
+		(property "Reference" "#PWR0164"
+			(at 417.83 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 417.83 -31.496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 417.83 -27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 417.83 -27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 417.83 -27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8bfad725-0554-425a-9811-829f0056567b")
+		)
+		(instances
+			(project "anarchytechnobox"
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35"
+					(reference "#PWR0164")
 					(unit 1)
 				)
 			)
@@ -3508,6 +4469,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 349.25 -27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "33fe0207-3e1a-46dc-adf4-7b21a0b5153a")
+		(property "Reference" "#PWR0158"
+			(at 349.25 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 349.25 -31.496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 349.25 -27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 349.25 -27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 349.25 -27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8450d816-a789-4656-9aa4-511d0073575b")
+		)
+		(instances
+			(project "anarchytechnobox"
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35"
+					(reference "#PWR0158")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 123.19 -17.78 0)
 		(unit 1)
@@ -3568,6 +4594,73 @@
 			(project ""
 				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TINRS - Wobbler (pico)sch-eagle-import:GND")
+		(at 316.23 -1.27 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "38a5cddc-2e45-4ea0-ac9f-1bc1e2fcfe59")
+		(property "Reference" "#GND031"
+			(at 316.23 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 315.976 0.254 0)
+			(effects
+				(font
+					(size 0.762 0.6477)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" ""
+			(at 316.23 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 316.23 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 316.23 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24ff154b-5305-4123-a6b2-51ae9de1ac9c")
+		)
+		(instances
+			(project "anarchytechnobox"
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35"
+					(reference "#GND031")
 					(unit 1)
 				)
 			)
@@ -3784,6 +4877,203 @@
 	)
 	(symbol
 		(lib_id "TINRS - Wobbler (pico)sch-eagle-import:GND")
+		(at 430.53 -1.27 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "45296d4a-bb81-42bc-afdd-c7594d7a8dd1")
+		(property "Reference" "#GND041"
+			(at 430.53 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 430.276 0.254 0)
+			(effects
+				(font
+					(size 0.762 0.6477)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" ""
+			(at 430.53 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 430.53 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 430.53 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d4ddf52-f060-47a8-bd8c-f512a3ad2a51")
+		)
+		(instances
+			(project "anarchytechnobox"
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35"
+					(reference "#GND041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 316.23 -11.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4695918f-5dfb-4df8-b25b-3c4f7a0226dc")
+		(property "Reference" "#PWR0129"
+			(at 316.23 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 315.976 -14.986 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 316.23 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 316.23 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 316.23 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ad2b4ed-e4c0-4f25-b574-7f3317328b86")
+		)
+		(instances
+			(project "anarchytechnobox"
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35"
+					(reference "#PWR0129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 372.11 -27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4e4aef68-f286-4822-9360-de339342d0d1")
+		(property "Reference" "#PWR0160"
+			(at 372.11 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 372.11 -31.496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 372.11 -27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 372.11 -27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 372.11 -27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e307e563-5d71-4460-941f-0af6fe04fba5")
+		)
+		(instances
+			(project "anarchytechnobox"
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35"
+					(reference "#PWR0160")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TINRS - Wobbler (pico)sch-eagle-import:GND")
 		(at 270.51 -1.27 0)
 		(mirror y)
 		(unit 1)
@@ -3913,6 +5203,287 @@
 			(project "anarchytechnobox"
 				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TinyLEDs:XL-1010")
+		(at 372.11 -19.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5716e8f4-c0ad-4e99-8867-debfb4e52d4a")
+		(property "Reference" "D20"
+			(at 374.396 -22.606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "C5349953"
+			(at 372.11 -19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TinyLEDs:XL-1010"
+			(at 386.334 -12.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf"
+			(at 380.492 -14.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 372.11 -19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "accd59f1-7a5e-462e-8dbf-54d57660f79d")
+		)
+		(pin "2"
+			(uuid "0170e680-8fbe-4a2c-8325-9a5c73ad6317")
+		)
+		(pin "3"
+			(uuid "5d932334-218e-4b97-bcca-3374fa216e26")
+		)
+		(pin "4"
+			(uuid "553d43a4-2ed7-4a15-912d-36a05bd047cf")
+		)
+		(instances
+			(project "anarchytechnobox"
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TINRS - Wobbler (pico)sch-eagle-import:C-EUC0402")
+		(at 384.81 -6.35 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a611cb8-1b86-46ed-8721-6c752208ea9e")
+		(property "Reference" "C89"
+			(at 381.254 -9.652 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100nF"
+			(at 385.826 -10.668 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 384.81 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 384.81 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 384.81 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "051fbe02-8a07-410c-a50e-c08b64bb9a54")
+		)
+		(pin "2"
+			(uuid "19c5acc2-f843-417f-af76-ca2c76c8b6ab")
+		)
+		(instances
+			(project "anarchytechnobox"
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35"
+					(reference "C89")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TINRS - Wobbler (pico)sch-eagle-import:C-EUC0402")
+		(at 316.23 -6.35 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63ff5940-b74c-4fa6-afe3-0117e0b635aa")
+		(property "Reference" "C86"
+			(at 312.674 -9.652 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100nF"
+			(at 317.246 -10.668 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 316.23 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 316.23 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 316.23 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f4e550d-419b-443c-9e48-2a4020c83b18")
+		)
+		(pin "2"
+			(uuid "a0fbdf2f-af79-44de-b550-168b59e914d9")
+		)
+		(instances
+			(project "anarchytechnobox"
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35"
+					(reference "C86")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TINRS - Wobbler (pico)sch-eagle-import:GND")
+		(at 339.09 -1.27 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c985c15-7985-4a41-bd6c-a8d47cf6b12e")
+		(property "Reference" "#GND033"
+			(at 339.09 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 338.836 0.254 0)
+			(effects
+				(font
+					(size 0.762 0.6477)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" ""
+			(at 339.09 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 339.09 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 339.09 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32e1e4dd-0926-4cf4-9848-9a2509bee436")
+		)
+		(instances
+			(project "anarchytechnobox"
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35"
+					(reference "#GND033")
 					(unit 1)
 				)
 			)
@@ -4312,6 +5883,281 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 361.95 -11.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ce23bbd-526d-4dad-95de-a9d13a1c6064")
+		(property "Reference" "#PWR0159"
+			(at 361.95 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 361.696 -14.986 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 361.95 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 361.95 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 361.95 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97e9368b-dced-4e15-add7-92891407e880")
+		)
+		(instances
+			(project "anarchytechnobox"
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35"
+					(reference "#PWR0159")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TinyLEDs:XL-1010")
+		(at 349.25 -19.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87ce235e-ab9a-4d28-b3f7-a7615a0e88ae")
+		(property "Reference" "D19"
+			(at 351.536 -22.606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "C5349953"
+			(at 349.25 -19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TinyLEDs:XL-1010"
+			(at 363.474 -12.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf"
+			(at 357.632 -14.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 349.25 -19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e21c1c3-25ca-4dfb-a2b8-11bb9e6f6be5")
+		)
+		(pin "2"
+			(uuid "c0da795d-afb6-4cf3-961f-daf3ac990829")
+		)
+		(pin "3"
+			(uuid "d02e84a4-a2be-4699-ae25-cfaeceabdc54")
+		)
+		(pin "4"
+			(uuid "ded50585-78b7-4a9d-8d35-0115082ebc70")
+		)
+		(instances
+			(project "anarchytechnobox"
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 440.69 -27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9049114c-0d53-4309-b464-bce780c579db")
+		(property "Reference" "#PWR0166"
+			(at 440.69 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 440.69 -31.496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 440.69 -27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 440.69 -27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 440.69 -27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76e37347-c774-4ca1-828e-b9d3bef6c978")
+		)
+		(instances
+			(project "anarchytechnobox"
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35"
+					(reference "#PWR0166")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TINRS - Wobbler (pico)sch-eagle-import:C-EUC0402")
+		(at 407.67 -6.35 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9792999b-f8b9-4c52-aea6-1bdbb5d21528")
+		(property "Reference" "C90"
+			(at 404.114 -9.652 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100nF"
+			(at 408.686 -10.668 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 407.67 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 407.67 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 407.67 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "abf02d8e-e8ce-449b-b89e-cc46bcc66470")
+		)
+		(pin "2"
+			(uuid "8b6cbe2e-00b0-4c65-9891-5f2328de2bd0")
+		)
+		(instances
+			(project "anarchytechnobox"
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35"
+					(reference "C90")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND2")
 		(at 181.61 -13.97 0)
 		(unit 1)
@@ -4508,6 +6354,140 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 394.97 -27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a6df28c2-dcc3-4ede-b912-3e7256cda82f")
+		(property "Reference" "#PWR0162"
+			(at 394.97 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 394.97 -31.496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 394.97 -27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 394.97 -27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 394.97 -27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3074b1c5-833d-4612-88b3-0e0774eb254f")
+		)
+		(instances
+			(project "anarchytechnobox"
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35"
+					(reference "#PWR0162")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TINRS - Wobbler (pico)sch-eagle-import:C-EUC0402")
+		(at 430.53 -6.35 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a7090f5a-8417-4b38-b018-289371a25d81")
+		(property "Reference" "C91"
+			(at 426.974 -9.652 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100nF"
+			(at 431.546 -10.668 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 430.53 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 430.53 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 430.53 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14104c16-4f2f-4fcd-8f10-77a9cc0fbb33")
+		)
+		(pin "2"
+			(uuid "dff40abe-d22a-4253-a1f7-fb1dedc71b88")
+		)
+		(instances
+			(project "anarchytechnobox"
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35"
+					(reference "C91")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND2")
 		(at 236.22 -12.7 0)
 		(unit 1)
@@ -4642,6 +6622,142 @@
 			(project ""
 				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TINRS - Wobbler (pico)sch-eagle-import:GND")
+		(at 407.67 -1.27 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab89b08f-583a-490e-8a92-e4ead7c66886")
+		(property "Reference" "#GND039"
+			(at 407.67 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 407.416 0.254 0)
+			(effects
+				(font
+					(size 0.762 0.6477)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" ""
+			(at 407.67 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 407.67 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 407.67 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d47ea6a-dabf-442e-9200-e04b73606f00")
+		)
+		(instances
+			(project "anarchytechnobox"
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35"
+					(reference "#GND039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TINRS - Wobbler (pico)sch-eagle-import:C-EUC0402")
+		(at 339.09 -6.35 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "afb9085b-f36f-4dec-8dc4-71cc3fa1a728")
+		(property "Reference" "C87"
+			(at 335.534 -9.652 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100nF"
+			(at 340.106 -10.668 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 339.09 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 339.09 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 339.09 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad09492b-135b-445c-8077-d38f14e42d95")
+		)
+		(pin "2"
+			(uuid "3d5b8985-faf3-4f4e-bb8b-973e57035646")
+		)
+		(instances
+			(project "anarchytechnobox"
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35"
+					(reference "C87")
 					(unit 1)
 				)
 			)
@@ -4843,6 +6959,73 @@
 		)
 	)
 	(symbol
+		(lib_id "TINRS - Wobbler (pico)sch-eagle-import:GND")
+		(at 394.97 -11.43 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b7ca0dd6-64cd-45f6-82dd-80710a267393")
+		(property "Reference" "#GND038"
+			(at 394.97 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 394.716 -9.906 0)
+			(effects
+				(font
+					(size 0.762 0.6477)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" ""
+			(at 394.97 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 394.97 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 394.97 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3255ea16-0c9e-437a-b04a-092a83336b13")
+		)
+		(instances
+			(project "anarchytechnobox"
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35"
+					(reference "#GND038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 198.12 -24.13 0)
 		(unit 1)
@@ -4975,8 +7158,140 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 339.09 -11.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bfc4165a-35b4-4505-8880-90f63d155c6a")
+		(property "Reference" "#PWR0157"
+			(at 339.09 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 338.836 -14.986 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 339.09 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 339.09 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 339.09 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b2400d4-4d99-454e-a5a4-817a23d4370c")
+		)
+		(instances
+			(project "anarchytechnobox"
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35"
+					(reference "#PWR0157")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TINRS - Wobbler (pico)sch-eagle-import:GND")
+		(at 372.11 -11.43 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0216180-bc76-4adf-b7b7-6819cbffd386")
+		(property "Reference" "#GND036"
+			(at 372.11 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 371.856 -9.906 0)
+			(effects
+				(font
+					(size 0.762 0.6477)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" ""
+			(at 372.11 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 372.11 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 372.11 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4924cee-3793-458c-ad28-8e094ea368e6")
+		)
+		(instances
+			(project "anarchytechnobox"
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35"
+					(reference "#GND036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 360.68 39.37 0)
+		(at 377.19 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4985,7 +7300,7 @@
 		(fields_autoplaced yes)
 		(uuid "c402ea50-2d5e-42bc-8654-f0133421448e")
 		(property "Reference" "J4"
-			(at 363.22 39.3699 0)
+			(at 379.73 39.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4994,7 +7309,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 363.22 41.9099 0)
+			(at 379.73 41.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5003,7 +7318,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal"
-			(at 360.68 39.37 0)
+			(at 377.19 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5012,7 +7327,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 360.68 39.37 0)
+			(at 377.19 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5021,7 +7336,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 360.68 39.37 0)
+			(at 377.19 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5173,6 +7488,142 @@
 		)
 	)
 	(symbol
+		(lib_id "TINRS - Wobbler (pico)sch-eagle-import:GND")
+		(at 349.25 -11.43 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dd5118f1-a3a1-4397-9ebf-8e3f37b9b83a")
+		(property "Reference" "#GND034"
+			(at 349.25 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 348.996 -9.906 0)
+			(effects
+				(font
+					(size 0.762 0.6477)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" ""
+			(at 349.25 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 349.25 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 349.25 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24a091d4-0ba8-4a6e-8a8e-feca40b517f4")
+		)
+		(instances
+			(project "anarchytechnobox"
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35"
+					(reference "#GND034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TINRS - Wobbler (pico)sch-eagle-import:C-EUC0402")
+		(at 361.95 -6.35 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e1c56ebc-0a49-4a4f-8cb4-a138e49a521d")
+		(property "Reference" "C88"
+			(at 358.394 -9.652 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100nF"
+			(at 362.966 -10.668 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 361.95 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 361.95 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 361.95 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df46f08a-3b28-4f82-8c07-58c14ac98593")
+		)
+		(pin "2"
+			(uuid "adbcbce5-fe0e-4654-ac79-7984719b1e63")
+		)
+		(instances
+			(project "anarchytechnobox"
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35"
+					(reference "C88")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TinyLEDs:XL-1010")
 		(at 303.53 -19.05 0)
 		(unit 1)
@@ -5250,7 +7701,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 360.68 86.36 0)
+		(at 377.19 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5259,7 +7710,7 @@
 		(fields_autoplaced yes)
 		(uuid "eba524ad-2567-457a-9d98-b88901e00abf")
 		(property "Reference" "J5"
-			(at 363.22 86.3599 0)
+			(at 379.73 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5268,7 +7719,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 363.22 88.8999 0)
+			(at 379.73 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5277,7 +7728,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal"
-			(at 360.68 86.36 0)
+			(at 377.19 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5286,7 +7737,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 360.68 86.36 0)
+			(at 377.19 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5295,7 +7746,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 360.68 86.36 0)
+			(at 377.19 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5313,6 +7764,149 @@
 			(project "anarchytechnobox"
 				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TINRS - Wobbler (pico)sch-eagle-import:GND")
+		(at 440.69 -11.43 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ede2b0bd-a8ec-43bc-8206-eeb35eb90f9d")
+		(property "Reference" "#GND042"
+			(at 440.69 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 440.436 -9.906 0)
+			(effects
+				(font
+					(size 0.762 0.6477)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" ""
+			(at 440.69 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 440.69 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 440.69 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e246412-0ac4-4ea0-953b-aa40d17f4511")
+		)
+		(instances
+			(project "anarchytechnobox"
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35"
+					(reference "#GND042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TinyLEDs:XL-1010")
+		(at 417.83 -19.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef829a6f-e72e-4cc4-a639-83067b70ab1d")
+		(property "Reference" "D22"
+			(at 420.116 -22.606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "C5349953"
+			(at 417.83 -19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TinyLEDs:XL-1010"
+			(at 432.054 -12.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2301111010_XINGLIGHT-XL-1010RGBC-WS2812B_C5349953.pdf"
+			(at 426.212 -14.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 417.83 -19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a77e9582-6852-446e-a9f2-b833d7d4960c")
+		)
+		(pin "2"
+			(uuid "48e92d5e-df45-4697-ab54-1f796f2960cb")
+		)
+		(pin "3"
+			(uuid "d882ce72-5592-4007-8357-73098183a07e")
+		)
+		(pin "4"
+			(uuid "5bc58391-24f3-469a-a0b7-433b5df53b3d")
+		)
+		(instances
+			(project "anarchytechnobox"
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35"
+					(reference "D22")
 					(unit 1)
 				)
 			)
