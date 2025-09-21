@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "parts")(type "KiCad")(uri "${KIPRJMOD}/parts.pretty")(options "")(descr ""))
+  (lib (name "TinyLEDs")(type "KiCad")(uri "${KICAD_USER_DIR}/TinyLEDs.pretty")(options "")(descr ""))
+  (lib (name "ZephKicad")(type "KiCad")(uri "${KICAD_USER_DIR}/ZephKicad/ZephKicad.pretty")(options "")(descr ""))
+)
