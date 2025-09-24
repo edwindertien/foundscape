@@ -4765,7 +4765,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 130.81) (xy 53.34 135.89)
+			(xy 53.34 130.81) (xy 53.34 134.62)
 		)
 		(stroke
 			(width 0)
@@ -4955,7 +4955,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 143.51) (xy 53.34 148.59)
+			(xy 53.34 144.78) (xy 53.34 148.59)
 		)
 		(stroke
 			(width 0)
@@ -6695,6 +6695,96 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_Elektuur:C")
+		(at 53.34 139.7 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1d0c836b-994d-4c11-8c55-8d37a293e261")
+		(property "Reference" "C9"
+			(at 50.8 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF 50V"
+			(at 50.8 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 53.34 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "capacitor, non-polarized/bipolar"
+			(at 53.34 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Indicator" "+"
+			(at 54.61 136.525 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "V"
+			(at 53.975 142.875 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31ca734d-6e0a-43e0-b381-7671fadc39e1")
+		)
+		(pin "2"
+			(uuid "696c91d1-eba1-4374-8e38-0e4bd9296a12")
+		)
+		(instances
+			(project "anarchytechnobox"
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35/14a18c5e-b7ca-4e47-b475-ea7a44b010d0"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "parts:WURTH_750311564")
 		(at 156.21 52.07 0)
 		(unit 1)
@@ -7563,84 +7653,6 @@
 			(project "anarchytechnobox"
 				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35/14a18c5e-b7ca-4e47-b475-ea7a44b010d0"
 					(reference "#PWR0167")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 53.34 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4b0f72b4-23a8-4a6b-8308-ebee45a7e6ef")
-		(property "Reference" "C105"
-			(at 56.134 137.414 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 56.388 139.954 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 54.3052 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 53.34 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 53.34 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digi-Key_PN" "311-1344-1-ND"
-			(at 53.34 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b4bd5bf3-6514-4577-a16b-4d85dc9b191b")
-		)
-		(pin "2"
-			(uuid "5a3de129-db39-479f-ac3d-bc55809ad6d3")
-		)
-		(instances
-			(project "anarchytechnobox"
-				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35/14a18c5e-b7ca-4e47-b475-ea7a44b010d0"
-					(reference "C105")
 					(unit 1)
 				)
 			)
