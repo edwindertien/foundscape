@@ -1312,7 +1312,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3VP"
+		(symbol "power:+5VP"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -1325,7 +1325,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
-				(at 3.81 -1.27 0)
+				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1333,7 +1333,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+3.3VP"
+			(property "Value" "+5VP"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -1359,7 +1359,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3VP\""
+			(property "Description" "Power symbol creates a global label with name \"+5VP\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1377,27 +1377,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+3.3VP_0_0"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "+3.3VP_0_1"
+			(symbol "+5VP_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1432,6 +1412,26 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(symbol "+5VP_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -3426,84 +3426,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3VP")
-		(at 114.3 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "17302644-c0e0-46ec-a649-fa49baae4e4f")
-		(property "Reference" "#PWR069"
-			(at 118.11 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3VP"
-			(at 114.3 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VP\""
-			(at 114.3 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "43335771-6f4b-4cee-86e4-62c0de3eba82")
-		)
-		(instances
-			(project "anarchytechnobox"
-				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35/48f260d8-d62f-49a9-8985-05fca65ac6cb/0c0607e4-80d3-46ba-8adb-76563a900b03"
-					(reference "#PWR0145")
-					(unit 1)
-				)
-				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35/48f260d8-d62f-49a9-8985-05fca65ac6cb/ec360df5-fff7-49b0-afa3-93c9754653a9"
-					(reference "#PWR0135")
-					(unit 1)
-				)
-				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35/f97c65ed-bb3f-4eb8-a2c6-056cc510b5f8/0c0607e4-80d3-46ba-8adb-76563a900b03"
-					(reference "#PWR079")
-					(unit 1)
-				)
-				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35/f97c65ed-bb3f-4eb8-a2c6-056cc510b5f8/ec360df5-fff7-49b0-afa3-93c9754653a9"
-					(reference "#PWR069")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 93.98 110.49 180)
 		(unit 1)
@@ -4444,6 +4366,84 @@
 				)
 				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35/f97c65ed-bb3f-4eb8-a2c6-056cc510b5f8/ec360df5-fff7-49b0-afa3-93c9754653a9"
 					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5VP")
+		(at 114.3 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d045e7b-9b37-466c-9a12-aa8625a4e9a4")
+		(property "Reference" "#PWR059"
+			(at 114.3 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VP"
+			(at 114.3 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VP\""
+			(at 114.3 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aad5af0e-496b-4005-8c66-0f9a560bbeba")
+		)
+		(instances
+			(project "anarchytechnobox"
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35/48f260d8-d62f-49a9-8985-05fca65ac6cb/0c0607e4-80d3-46ba-8adb-76563a900b03"
+					(reference "#PWR069")
+					(unit 1)
+				)
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35/48f260d8-d62f-49a9-8985-05fca65ac6cb/ec360df5-fff7-49b0-afa3-93c9754653a9"
+					(reference "#PWR067")
+					(unit 1)
+				)
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35/f97c65ed-bb3f-4eb8-a2c6-056cc510b5f8/0c0607e4-80d3-46ba-8adb-76563a900b03"
+					(reference "#PWR065")
+					(unit 1)
+				)
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35/f97c65ed-bb3f-4eb8-a2c6-056cc510b5f8/ec360df5-fff7-49b0-afa3-93c9754653a9"
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
