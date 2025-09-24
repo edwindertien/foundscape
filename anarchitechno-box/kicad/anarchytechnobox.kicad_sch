@@ -5357,7 +5357,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ec20991-4288-429c-803e-5243fb3274f7")
-		(property "Reference" "M?"
+		(property "Reference" "M1"
 			(at 271.78 190.4999 0)
 			(effects
 				(font
@@ -5418,7 +5418,7 @@
 		(instances
 			(project "anarchytechnobox"
 				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35"
-					(reference "M?")
+					(reference "M1")
 					(unit 1)
 				)
 			)
