@@ -240,7 +240,7 @@
 		(uuid "64180b89-0fbd-4265-84b2-7f9d18038312")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/3d/T_Wurth_WE-FB-EP13_16.36.step"
+	(model "./3d/T_Wurth_WE-FB-EP13_16.36.step"
 		(offset
 			(xyz 0 0 0)
 		)
