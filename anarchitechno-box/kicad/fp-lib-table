@@ -3,4 +3,5 @@
   (lib (name "parts")(type "KiCad")(uri "${KIPRJMOD}/parts.pretty")(options "")(descr ""))
   (lib (name "TinyLEDs")(type "KiCad")(uri "${KICAD_USER_DIR}/TinyLEDs.pretty")(options "")(descr ""))
   (lib (name "ZephKicad")(type "KiCad")(uri "${KICAD_USER_DIR}/ZephKicad/ZephKicad.pretty")(options "")(descr ""))
+  (lib (name "LPZW_logo")(type "KiCad")(uri "${KICAD_USER_DIR}/LPZW_logo.pretty")(options "")(descr ""))
 )

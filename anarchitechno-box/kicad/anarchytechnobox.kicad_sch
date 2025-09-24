@@ -2009,6 +2009,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 99.06) (xy 91.44 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96012b2c-c7bd-4762-9d12-3d6218c4f411")
+	)
+	(wire
+		(pts
 			(xy 146.05 39.37) (xy 309.88 39.37)
 		)
 		(stroke
@@ -8335,6 +8345,48 @@
 			(project "anarchytechnobox"
 				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35"
 					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 69.85 97.79)
+		(size 21.59 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ffbe1760-7219-476c-a404-3e25c1e1c288")
+		(property "Sheetname" "MIDI"
+			(at 69.85 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MIDI.kicad_sch"
+			(at 69.85 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "anarchytechnobox"
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35"
+					(page "13")
 				)
 			)
 		)

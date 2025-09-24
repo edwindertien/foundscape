@@ -491,16 +491,8 @@
       {
         "name": "Audio",
         "pcb_color": "rgb(231, 19, 173)",
-        "priority": 2,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
-      },
-      {
-        "clearance": 0.254,
-        "name": "Ethernet Diff Pair",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.18415
       },
       {
         "bus_width": 12,
@@ -512,7 +504,7 @@
         "microvia_drill": 0.1,
         "name": "HeavyPower",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -522,7 +514,7 @@
       {
         "name": "MIDI",
         "pcb_color": "rgb(255, 161, 53)",
-        "priority": 1,
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
@@ -533,7 +525,7 @@
         "microvia_drill": 0.1,
         "name": "MIPI",
         "pcb_color": "rgb(120, 255, 194)",
-        "priority": 3,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1,
         "via_diameter": 0.4,
@@ -549,7 +541,7 @@
         "microvia_drill": 0.1,
         "name": "Mem",
         "pcb_color": "rgb(140, 240, 255)",
-        "priority": 5,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1524,
         "via_diameter": 0.8,
@@ -566,7 +558,7 @@
         "microvia_drill": 0.1,
         "name": "Mux",
         "pcb_color": "rgb(255, 149, 206)",
-        "priority": 6,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1524,
         "via_diameter": 0.5,
@@ -583,7 +575,7 @@
         "microvia_drill": 0.1,
         "name": "Sensors",
         "pcb_color": "rgb(255, 244, 48)",
-        "priority": 7,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1524,
         "via_diameter": 0.8,
@@ -600,7 +592,7 @@
         "microvia_drill": 0.1,
         "name": "USBrelated",
         "pcb_color": "rgb(29, 138, 155)",
-        "priority": 8,
+        "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1524,
         "via_diameter": 0.7,
@@ -617,7 +609,7 @@
         "microvia_drill": 0.1,
         "name": "VREG_LX",
         "pcb_color": "rgb(255, 137, 59)",
-        "priority": 9,
+        "priority": 8,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.13,
         "via_diameter": 0.7,
@@ -698,14 +690,6 @@
       {
         "netclass": "MIDI",
         "pattern": "*MIDI*"
-      },
-      {
-        "netclass": "Ethernet Diff Pair",
-        "pattern": "*ETH_TX_*"
-      },
-      {
-        "netclass": "Ethernet Diff Pair",
-        "pattern": "*ETH_RX_*"
       }
     ]
   },
@@ -876,6 +860,10 @@
     [
       "4ac30784-1697-4f10-a090-83a6b536d188",
       "RS485"
+    ],
+    [
+      "ffbe1760-7219-476c-a404-3e25c1e1c288",
+      "MIDI"
     ],
     [
       "ec360df5-fff7-49b0-afa3-93c9754653a9",

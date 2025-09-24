@@ -1,4 +1,4 @@
-26269841614278734
+26275117740551145
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -104747,6 +104747,27 @@ WQFN-20_L3.0-W3.0-P0.40-BL-EP
 0
 21
 21
+parts
+ARJM11B1-009-AB-EW2
+
+
+0
+14
+13
+parts
+CENKER_CKCS5040
+
+
+0
+2
+2
+parts
+EC5DAW-24S05N
+
+
+0
+7
+7
 parts
 TI_HVSSOP-28
 
