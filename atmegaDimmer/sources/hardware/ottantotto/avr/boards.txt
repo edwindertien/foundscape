@@ -1,0 +1,25 @@
+atmega88.name=Ottantotto with mega88
+
+atmega88.upload.tool=arduino:avrdude
+atmega88.upload.protocol=arduino
+atmega88.upload.maximum_size=7192
+atmega88.upload.maximum_data_size=1024
+atmega88.upload.speed=19200
+atmega88.upload.disable_flushing=true
+atmega88.upload.use_1200bps_touch=true
+atmega88.upload.wait_for_upload_port=true
+
+atmega88.bootloader.tool=arduino:avrdude
+atmega88.bootloader.low_fuses=0xff
+atmega88.bootloader.high_fuses=0xdd
+atmega88.bootloader.extended_fuses=0x00
+atmega88.bootloader.path=atmega
+atmega88.bootloader.file=atmega/ATmegaBOOT_168_atmega88.hex
+atmega88.bootloader.unlock_bits=0x3F
+atmega88.bootloader.lock_bits=0x0F
+
+atmega88.build.mcu=atmega88
+atmega88.build.f_cpu=16000000L
+atmega88.build.board=AVR_ATMEGA88
+atmega88.build.core=arduino:arduino
+atmega88.build.variant=standard

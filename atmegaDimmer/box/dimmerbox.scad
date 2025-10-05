@@ -16,9 +16,9 @@ mount_h = 3;
 mount_drill = 2.5;
 
 height = 27+top+mount_h;
-//box();
+box();
 //translate([0,0,height+wall-top])lid();
-projection(cut = false) lid();
+//projection(cut = false) lid();
 
 module box() {difference() {
   union() {
@@ -62,6 +62,7 @@ module box() {difference() {
   }
   // side holes
   translate([55,-10,wall+mount_h + 2])cube([32,20,16]);
+  translate([55,-10,13])rotate([35,0,0])cube([32,30,5]);
   translate([15,depth-10,wall+mount_h + 2])cube([73,20,8]);
 }}
 
