@@ -1303,15 +1303,6 @@
 		(at 180.34 135.89)
 		(uuid "fb158217-c5bf-4f78-8c25-5fd400d37465")
 	)
-	(bus_entry
-		(at 223.52 44.45)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a40f9c8e-dd8e-415a-a3ed-d1ffeb18d00c")
-	)
 	(wire
 		(pts
 			(xy 173.99 120.65) (xy 180.34 120.65)
@@ -2380,6 +2371,15 @@
 		)
 		(property "Description" "ISO774x High-Speed, Robust-EMC Reinforced and Basic Quad-Channel Digital Isolators"
 			(at 116.84 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C529547"
+			(at 97.79 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)

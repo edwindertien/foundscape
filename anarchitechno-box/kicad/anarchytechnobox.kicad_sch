@@ -1462,9 +1462,20 @@
 		)
 		(uuid "ac472d46-1bf6-4d97-adcd-a3af0dd9a89f")
 	)
-	(text "TODO:\nV Add 3.3V regulator at power side (+3.3VP)\nV Add off-the-shelf isolated 5V 6W+ DC/DC (e.g. Recom REC10K-2405SAW/H2)\n- Add LED indicator chain (I moved Rpi pin) - does it need stay isolated?\n- Check if Pin allocations don't collide (in particular PWMs and SPIs)\n- MIDI stuff\nV OLED display connector\n- Optocoupler inputs\nV Rotary encoder etc.\nV Groove connector\n- Fan connector?"
+	(text "Capacitors:\n\n- 0402 1uF 25V: C52923 (basic), MPN: Samsung CL05A105KA5NQNC\n- 0603 10uF 10V: C19702 (basic), MPN: Samsung CL10A106KP8NNNC\n- 0603 1uF 50V: C15849 (basic), MPN: Samsung CL10A105KB8NNNC\n- 1210 47uF 10V: C96123 (basic), MPN: Samsung CL31A476MPHNNNE\n- 1210 10uF 50V: C13585 (basic), MPN: Samsung CL31A106KBHNNNE"
 		(exclude_from_sim no)
-		(at 40.894 233.426 0)
+		(at 37.338 174.752 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e9d32048-1c9b-4644-9f0a-6a259c9c7313")
+	)
+	(text "TODO:\nV Add 3.3V regulator at power side (+3.3VP)\nV Add off-the-shelf isolated 5V 6W+ DC/DC (e.g. Recom REC10K-2405SAW/H2)\n- Add LED indicator chain (I moved Rpi pin) - does it need stay isolated?\n- Check if Pin allocations don't collide (in particular PWMs and SPIs)\nV MIDI stuff\nV OLED display connector\n- Optocoupler inputs\nV Rotary encoder etc.\nV Groove connector\nV Fan connector (5V only, no control)\n\n\nV RJ45 RS485\nV 2mm groove connector\n- Midi Output connector (added) / check schematic\n- Optocouplers input?\nV Nieuwe Ethernet jack: https://www.lcsc.com/product-detail/C12074.html\n- LED chain for communication interfaces?"
+		(exclude_from_sim no)
+		(at 16.002 240.792 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1846,6 +1857,26 @@
 			(type default)
 		)
 		(uuid "661862cd-195e-4074-b87d-618580d66f3c")
+	)
+	(wire
+		(pts
+			(xy 91.44 77.47) (xy 99.06 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6641251d-a41d-4b38-9286-e707ccc2bf66")
+	)
+	(wire
+		(pts
+			(xy 91.44 96.52) (xy 99.06 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66e77543-427e-405d-9707-444916ae8796")
 	)
 	(wire
 		(pts
@@ -7590,8 +7621,8 @@
 		)
 	)
 	(sheet
-		(at 69.85 78.74)
-		(size 21.59 12.7)
+		(at 69.85 73.66)
+		(size 21.59 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7606,7 +7637,7 @@
 		)
 		(uuid "4ac30784-1697-4f10-a090-83a6b536d188")
 		(property "Sheetname" "RS485"
-			(at 69.85 78.0284 0)
+			(at 69.85 72.9484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7624,16 +7655,6 @@
 				(hide yes)
 			)
 		)
-		(pin "485_~{RE}" input
-			(at 69.85 82.55 180)
-			(uuid "5b36e20e-ac00-4460-8ae1-dac5ae864020")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "FROM_RS485" output
 			(at 91.44 88.9 0)
 			(uuid "b9a84f02-088f-4d4f-ade4-a691a9e85133")
@@ -7644,19 +7665,19 @@
 				(justify right)
 			)
 		)
-		(pin "485_DE" input
-			(at 69.85 85.09 180)
-			(uuid "bc93580f-326c-4ffa-a597-ec800b65ff0b")
+		(pin "TO_RS485" input
+			(at 91.44 86.36 0)
+			(uuid "db4a34f0-fac9-46ee-a6de-ab77a90881b0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(pin "TO_RS485" input
-			(at 91.44 86.36 0)
-			(uuid "db4a34f0-fac9-46ee-a6de-ab77a90881b0")
+		(pin "485_~{RE}_DE" input
+			(at 91.44 77.47 0)
+			(uuid "4f044372-7de0-4c92-9773-71d7695382a1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7956,46 +7977,6 @@
 				(justify right)
 			)
 		)
-		(pin "I2C0_SCL" bidirectional
-			(at 99.06 29.21 180)
-			(uuid "66ba938c-eba7-4eed-8a01-509b0de0e978")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "I2C0_SDA" bidirectional
-			(at 99.06 31.75 180)
-			(uuid "b8db244d-fa8d-4897-aadb-cb3fe0e124e7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "I2C1_SDA" bidirectional
-			(at 99.06 49.53 180)
-			(uuid "099cbe51-add6-467d-a054-584b823991e5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "I2C1_SCL" bidirectional
-			(at 99.06 46.99 180)
-			(uuid "26fb7296-13c1-491f-ac2f-e041a3ab84b1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "UART1_TX" output
 			(at 99.06 96.52 180)
 			(uuid "dfc976a8-7058-4231-aa32-376170cff142")
@@ -8034,6 +8015,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "485_~{RE}_DE" output
+			(at 99.06 77.47 180)
+			(uuid "4f437992-f89f-45ff-b16f-f1f9e8e45941")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -8350,8 +8341,8 @@
 		)
 	)
 	(sheet
-		(at 69.85 97.79)
-		(size 21.59 3.81)
+		(at 69.85 93.98)
+		(size 21.59 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8366,7 +8357,7 @@
 		)
 		(uuid "ffbe1760-7219-476c-a404-3e25c1e1c288")
 		(property "Sheetname" "MIDI"
-			(at 69.85 97.0784 0)
+			(at 69.85 93.2684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8381,6 +8372,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "MIDI_IN" output
+			(at 91.44 99.06 0)
+			(uuid "d76599a3-402f-45ba-9e07-442d23642f40")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MIDI_OUT" input
+			(at 91.44 96.52 0)
+			(uuid "3d9ed1e9-42c4-46fe-af76-3823ecd15d8d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
