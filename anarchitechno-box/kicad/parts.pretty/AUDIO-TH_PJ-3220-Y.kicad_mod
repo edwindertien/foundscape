@@ -1,0 +1,266 @@
+(footprint "AUDIO-TH_PJ-3220-Y"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "CN1"
+		(at 0 -7.4 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d547b2c1-c4ba-4135-aa83-0b8ffbed4716")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PJ-3220-Y"
+		(at 0 7.4 0)
+		(layer "F.Fab")
+		(uuid "bcaf3713-0092-4872-8d59-796d34b9cd74")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://lcsc.com/product-detail/Audio-Video-Connectors_XKB-Connectivity-PJ-3220-Y_C692442.html"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f0b87e15-f4f0-4581-8ce0-d4dde880aba4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "40e208e5-cde8-44ef-841a-8779c9a5d9f9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part" "C692442"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "95a216ec-2722-457f-8de6-6083cbb31809")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -10.46 -3)
+		(end -7.96 -3)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f9e65272-b934-43bd-8bb3-0acf8eb2c6ee")
+	)
+	(fp_line
+		(start -10.46 3)
+		(end -10.46 -3)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0fd65b75-c5a0-4d3f-a68c-137c844b0f77")
+	)
+	(fp_line
+		(start -7.96 -3.5)
+		(end -7.96 3.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7146dd18-79df-4d9b-a047-2eefb0c9605d")
+	)
+	(fp_line
+		(start -7.96 -3.5)
+		(end -5.77 -3.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d1172cda-0dcf-4202-9375-75c028be0eeb")
+	)
+	(fp_line
+		(start -7.96 3)
+		(end -10.46 3)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "442d01c7-a2de-4d14-9930-9c559730eae0")
+	)
+	(fp_line
+		(start -7.96 3.5)
+		(end -5.77 3.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4fa9d8ff-b189-4c05-9988-fa58114efa13")
+	)
+	(fp_line
+		(start -3.14 -3.5)
+		(end 2.46 -3.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3aa3aa41-4b50-43a4-a456-a2160f9cd504")
+	)
+	(fp_line
+		(start -3.14 3.5)
+		(end 2.46 3.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "98245e62-351b-4bfc-9ece-31be77f92c34")
+	)
+	(fp_line
+		(start 4.54 -2.12)
+		(end 4.54 -1.31)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cecfa976-e4f0-4146-9e41-99c1f19bd642")
+	)
+	(fp_line
+		(start 4.54 1.31)
+		(end 4.54 2.11)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "56158ff7-75bb-46ca-9c7e-71b4f6b0dfbd")
+	)
+	(fp_circle
+		(center -5.95 0)
+		(end -5.7 0)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "374c6271-17e3-40e0-9403-540132c979da")
+	)
+	(fp_circle
+		(center 1.05 0)
+		(end 1.3 0)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "5d0195f7-fbe3-4e60-bc18-51e646174048")
+	)
+	(fp_circle
+		(center 4.65 -3.6)
+		(end 4.68 -3.6)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "f3703b94-08b5-4e4a-be48-6dd09a885f70")
+	)
+	(pad "" np_thru_hole circle
+		(at -5.95 0)
+		(size 1.3 1.3)
+		(drill 1.3)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "d07c8c02-7b96-4cbb-8516-6ff3958b3ee0")
+	)
+	(pad "" np_thru_hole circle
+		(at 1.05 0)
+		(size 1.3 1.3)
+		(drill 1.3)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "3137b74f-466b-4b89-a0af-d8bb9eb8f9c9")
+	)
+	(pad "1" thru_hole oval
+		(at 4.45 0)
+		(size 1.5 2.2)
+		(drill oval 0.900024 1.599997)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b3543bb4-b8f4-44cf-ba0a-85285f2f59ec")
+	)
+	(pad "2" thru_hole oval
+		(at 3.55 -2.85 90)
+		(size 1.5 2.2)
+		(drill oval 0.900024 1.599997)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e4ec24bf-7926-4ba1-9010-7a9ce82f7ae6")
+	)
+	(pad "3" thru_hole oval
+		(at -4.45 -3.4 90)
+		(size 1.5 2.2)
+		(drill oval 0.900024 1.599997)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e8e47af6-2dc7-49e5-8839-3d605def24ae")
+	)
+	(pad "3" thru_hole oval
+		(at -4.45 3.4 90)
+		(size 1.5 2.2)
+		(drill oval 0.900024 1.599997)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0d5c2aa8-e074-4e73-8d51-58d4022135b5")
+	)
+	(pad "4" thru_hole oval
+		(at 3.55 2.85 270)
+		(size 1.5 2.2)
+		(drill oval 0.900024 1.599997)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b48391a4-cb31-4d41-a6a6-51fb571da030")
+	)
+	(embedded_fonts no)
+	(model ":KICAD_USER_DIR:jlcpcb/jlcpcb.3dshapes/AUDIO-TH_PJ-3220-Y.wrl"
+		(offset
+			(xyz -2.94 -0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

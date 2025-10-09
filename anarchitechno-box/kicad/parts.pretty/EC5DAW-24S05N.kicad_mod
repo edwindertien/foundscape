@@ -55,6 +55,17 @@
 	)
 	(attr smd)
 	(fp_rect
+		(start -7.25 -12.5)
+		(end 7.25 12.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "96b71746-1c87-4305-9727-2e0115a75ad7")
+	)
+	(fp_rect
 		(start 6.858 -12.065)
 		(end -6.858 12.065)
 		(stroke
@@ -62,7 +73,7 @@
 			(type solid)
 		)
 		(fill no)
-		(layer "F.SilkS")
+		(layer "F.Fab")
 		(uuid "ce14a354-eba6-4265-a048-4ff4ff72be00")
 	)
 	(fp_text user "${REFERENCE}"

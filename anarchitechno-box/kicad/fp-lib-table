@@ -4,4 +4,6 @@
   (lib (name "TinyLEDs")(type "KiCad")(uri "${KICAD_USER_DIR}/TinyLEDs.pretty")(options "")(descr ""))
   (lib (name "ZephKicad")(type "KiCad")(uri "${KICAD_USER_DIR}/ZephKicad/ZephKicad.pretty")(options "")(descr ""))
   (lib (name "LPZW_logo")(type "KiCad")(uri "${KICAD_USER_DIR}/LPZW_logo.pretty")(options "")(descr ""))
+  (lib (name "Connectors")(type "KiCad")(uri "${KIPRJMOD}/Connectors.pretty")(options "")(descr ""))
+  (lib (name "easyeda2kicad")(type "KiCad")(uri "${KIPRJMOD}/easyeda2kicad.pretty")(options "")(descr ""))
 )
