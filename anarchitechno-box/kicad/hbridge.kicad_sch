@@ -719,27 +719,50 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "parts:DRV8243SQDGQRQ1"
+		(symbol "parts:DRV8245SQPWPRQ1"
+			(pin_names
+				(offset 0.254)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0.762 1.27 0)
+				(at 9.144 4.572 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Value" "DRV8243SQDGQRQ1"
-				(at 14.224 1.27 0)
+			(property "Value" "DRV8245SQPWPRQ1"
+				(at 9.144 2.032 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Footprint" "parts:TI_HVSSOP-28"
+			(property "Footprint" "parts:TI_HTSSOP-28-M"
+				(at 9.398 -60.452 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/gpn/drv8245-q1"
+				(at 9.398 -60.452 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -748,8 +771,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv8243-q1.pdf"
-				(at 25.4 -61.976 0)
+			(property "MPN" "DRV8245SQPWPRQ1"
+				(at 9.398 -60.452 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -757,8 +780,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Automotive H-Bridge Driver with Integrated Current Sense and Diagnostics"
-				(at 36.576 -64.516 0)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "PDRV8245SPWPQ1"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -766,8 +797,8 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "DRV8243SQDGQRQ1"
-				(at 9.652 -59.69 0)
+			(property "ki_fp_filters" "U_PWP0028R_TEX U_PWP0028R_TEX-M U_PWP0028R_TEX-L"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -775,7 +806,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "DRV8243SQDGQRQ1_1_1"
+			(symbol "DRV8245SQPWPRQ1_1_1"
 				(rectangle
 					(start 0 0)
 					(end 19.05 -57.15)
@@ -1310,6 +1341,290 @@
 					)
 				)
 			)
+			(symbol "DRV8245SQPWPRQ1_2_1"
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -38.1)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -38.1) (xy 33.02 -38.1)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 33.02 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 33.02 -38.1) (xy 33.02 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 7.62)
+					(name "VM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "VM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "VM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 0)
+					(length 7.62)
+					(name "VM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 0)
+					(length 7.62)
+					(name "VM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 0)
+					(length 7.62)
+					(name "VM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 0 -15.24 0)
+					(length 7.62)
+					(name "EPAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "EPAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 0 -20.32 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 0 -22.86 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 0 -25.4 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 0 -27.94 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 0 -30.48 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 0 -33.02 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
 			(embedded_fonts no)
 		)
 		(symbol "power:+5VP"
@@ -1796,12 +2111,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e636968-982c-47fb-9eff-cba5ccd9e225")
-	)
-	(junction
-		(at 88.9 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6c1fdaa9-ba02-4179-bf5f-4a0d01a8224c")
 	)
 	(junction
 		(at 99.06 74.93)
@@ -2495,16 +2804,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 110.49) (xy 88.9 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbe54de7-86b0-4b52-8612-efce2eb17cb4")
-	)
-	(wire
-		(pts
 			(xy 144.78 111.76) (xy 144.78 114.3)
 		)
 		(stroke
@@ -2552,16 +2851,6 @@
 			(type default)
 		)
 		(uuid "d6f6a46e-6dab-4d34-a511-00bd236ac6c0")
-	)
-	(wire
-		(pts
-			(xy 88.9 104.14) (xy 114.3 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7409041-f829-4662-b21c-99a25c53547e")
 	)
 	(wire
 		(pts
@@ -2675,7 +2964,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 104.14) (xy 88.9 104.14)
+			(xy 76.2 104.14) (xy 114.3 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2932,7 +3221,7 @@
 		)
 	)
 	(symbol
-		(lib_id "parts:DRV8243SQDGQRQ1")
+		(lib_id "parts:DRV8245SQPWPRQ1")
 		(at 120.65 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2957,7 +3246,27 @@
 				)
 			)
 		)
-		(property "Footprint" "parts:TI_HVSSOP-28"
+		(property "Footprint" "parts:TI_HTSSOP-28-M"
+			(at 130.048 125.222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/drv8245-q1"
+			(at 130.048 125.222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Automotive H-Bridge Driver with Integrated Current Sense and Diagnostics"
 			(at 120.65 64.77 0)
 			(effects
 				(font
@@ -2966,26 +3275,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv8243-q1.pdf"
-			(at 146.05 126.746 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Automotive H-Bridge Driver with Integrated Current Sense and Diagnostics"
-			(at 157.226 129.286 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "DRV8243SQDGQRQ1"
-			(at 130.302 124.46 0)
+		(property "MPN" "DRV8245SQPWPRQ1"
+			(at 130.048 125.222 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3079,6 +3370,45 @@
 		)
 		(pin "21"
 			(uuid "454d416e-608d-4f9c-869b-dc3253b87707")
+		)
+		(pin "6"
+			(uuid "35b2784f-ad6c-43ae-8891-d51743716774")
+		)
+		(pin "7"
+			(uuid "9cbd0cc5-8321-42f5-8dd8-a00332350cf5")
+		)
+		(pin "8"
+			(uuid "2eee0d6e-e4c7-45a3-8f3d-5442533c71b8")
+		)
+		(pin "21"
+			(uuid "f363971e-d3d3-4b76-b1e6-32835937271d")
+		)
+		(pin "22"
+			(uuid "57f77665-0ea7-4b2b-8374-37f44c95eba9")
+		)
+		(pin "23"
+			(uuid "abea1d30-951c-4fca-8c0f-a14498621205")
+		)
+		(pin "EPAD"
+			(uuid "26638ccf-2983-4ef1-94b2-5489d7565a3d")
+		)
+		(pin "12"
+			(uuid "af67fd64-c99e-44a5-bffd-60d69634cb49")
+		)
+		(pin "13"
+			(uuid "faecab52-a083-416d-9105-4aff24666555")
+		)
+		(pin "14"
+			(uuid "000a73e1-3799-4731-ad04-629af82e6546")
+		)
+		(pin "15"
+			(uuid "195f1e60-156a-4db1-8826-bfe3e5d58b20")
+		)
+		(pin "16"
+			(uuid "32bb4324-1695-42ff-ac6d-ba65d58874e1")
+		)
+		(pin "17"
+			(uuid "4bd380f2-43ab-41a8-bb8a-65cd2d0f2eff")
 		)
 		(instances
 			(project "anarchytechnobox"
@@ -3914,84 +4244,6 @@
 				)
 				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35/f97c65ed-bb3f-4eb8-a2c6-056cc510b5f8/ec360df5-fff7-49b0-afa3-93c9754653a9"
 					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 88.9 110.49 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7753f5a6-a36b-4145-9459-873a1affd8c3")
-		(property "Reference" "TP1"
-			(at 88.9 116.332 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 86.36 113.792 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 83.82 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 88.9 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "76699394-c7ef-49e3-ac76-4641f3a6b205")
-		)
-		(instances
-			(project "anarchytechnobox"
-				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35/48f260d8-d62f-49a9-8985-05fca65ac6cb/0c0607e4-80d3-46ba-8adb-76563a900b03"
-					(reference "TP16")
-					(unit 1)
-				)
-				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35/48f260d8-d62f-49a9-8985-05fca65ac6cb/ec360df5-fff7-49b0-afa3-93c9754653a9"
-					(reference "TP11")
-					(unit 1)
-				)
-				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35/f97c65ed-bb3f-4eb8-a2c6-056cc510b5f8/0c0607e4-80d3-46ba-8adb-76563a900b03"
-					(reference "TP6")
-					(unit 1)
-				)
-				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35/f97c65ed-bb3f-4eb8-a2c6-056cc510b5f8/ec360df5-fff7-49b0-afa3-93c9754653a9"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
