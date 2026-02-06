@@ -1107,6 +1107,194 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:Jumper_3_Bridged12"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_3_Bridged12"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 3-pole, pins 1+2 closed/bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPDT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*3Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_3_Bridged12_0_0"
+				(circle
+					(center -3.302 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.302 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_3_Bridged12_0_1"
+				(arc
+					(start -3.048 0.508)
+					(mid -1.651 0.9912)
+					(end -0.254 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_3_Bridged12_1_1"
+				(pin passive line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "RPI_RMC20452T:RPI_RMC20452T"
 			(pin_names
 				(offset 1.016)
@@ -5919,6 +6107,16 @@
 		)
 		(uuid "d1ff2804-1426-468f-a489-edd8f0b421ef")
 	)
+	(text "UART Connector"
+		(exclude_from_sim no)
+		(at 309.118 167.894 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f306d1aa-e339-4798-951f-2ef5861b3317")
+	)
 	(junction
 		(at 55.88 28.448)
 		(diameter 0)
@@ -6855,6 +7053,16 @@
 	)
 	(wire
 		(pts
+			(xy 306.07 154.94) (xy 317.5 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49893fa5-a8a2-4edc-979e-cad89bebd2ae")
+	)
+	(wire
+		(pts
 			(xy 372.11 36.83) (xy 379.73 36.83)
 		)
 		(stroke
@@ -7035,6 +7243,16 @@
 	)
 	(wire
 		(pts
+			(xy 321.31 166.37) (xy 321.31 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b2aeed0-8f49-4130-aa04-240fb2692f48")
+	)
+	(wire
+		(pts
 			(xy 170.18 247.65) (xy 173.99 247.65)
 		)
 		(stroke
@@ -7045,6 +7263,16 @@
 	)
 	(wire
 		(pts
+			(xy 309.88 160.02) (xy 306.07 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c5f81fa-d61f-4c3f-a0b1-f06de8036ad4")
+	)
+	(wire
+		(pts
 			(xy 173.99 247.65) (xy 173.99 252.73)
 		)
 		(stroke
@@ -7052,6 +7280,16 @@
 			(type default)
 		)
 		(uuid "5d8068d7-04a7-4a60-aa91-2b28e822d3af")
+	)
+	(wire
+		(pts
+			(xy 327.66 151.13) (xy 327.66 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dc38346-68ec-4dd5-936f-513fd560fa1f")
 	)
 	(wire
 		(pts
@@ -7232,6 +7470,16 @@
 			(type default)
 		)
 		(uuid "6c3916b6-de02-4cf1-83cc-18d27afb9955")
+	)
+	(wire
+		(pts
+			(xy 367.03 115.57) (xy 379.73 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ca24da3-bc6a-4d98-a96d-ec04a2ab4af2")
 	)
 	(wire
 		(pts
@@ -7725,6 +7973,16 @@
 	)
 	(wire
 		(pts
+			(xy 327.66 166.37) (xy 321.31 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0ff1649-d316-41f4-b390-6c5070392402")
+	)
+	(wire
+		(pts
 			(xy 378.46 62.23) (xy 378.46 64.77)
 		)
 		(stroke
@@ -7782,6 +8040,16 @@
 			(type default)
 		)
 		(uuid "b9d47862-40ed-4933-a134-7daedb22d2df")
+	)
+	(wire
+		(pts
+			(xy 306.07 152.4) (xy 317.5 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba7d3987-0328-4b1a-b8e0-320bce62d34a")
 	)
 	(wire
 		(pts
@@ -8035,6 +8303,16 @@
 	)
 	(wire
 		(pts
+			(xy 306.07 157.48) (xy 317.5 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d15ec054-5542-425b-a9df-bcad25afe396")
+	)
+	(wire
+		(pts
 			(xy 187.96 240.03) (xy 170.18 240.03)
 		)
 		(stroke
@@ -8242,6 +8520,16 @@
 			(type default)
 		)
 		(uuid "e553f2ad-f72e-4b25-a317-1aafb3354f32")
+	)
+	(wire
+		(pts
+			(xy 367.03 110.49) (xy 379.73 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e571dd02-3ac3-4f56-8975-cfec56c36764")
 	)
 	(wire
 		(pts
@@ -8873,6 +9161,16 @@
 		)
 		(uuid "b873254d-adb9-406b-9d60-7ec9a39d6c24")
 	)
+	(label "UART1_RX"
+		(at 317.5 154.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bfd506c7-d19c-494e-b705-596cc9f0e607")
+	)
 	(label "COREVDD"
 		(at 129.54 25.4 0)
 		(effects
@@ -8932,6 +9230,16 @@
 			(justify right bottom)
 		)
 		(uuid "cd9e7395-63e1-4f66-b014-805a29e86f61")
+	)
+	(label "UART1_TX"
+		(at 317.5 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d2cf50f2-3f20-4064-99a7-74a72e612dbc")
 	)
 	(label "DISP_SCL"
 		(at 306.07 92.71 0)
@@ -9081,6 +9389,17 @@
 		)
 		(uuid "336ff1b1-5b6f-4190-b589-61a73b2c22c9")
 	)
+	(hierarchical_label "ETH_INT"
+		(shape output)
+		(at 367.03 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "39db72d0-d621-4227-a51f-b32534b006bc")
+	)
 	(hierarchical_label "PWM8_A"
 		(shape output)
 		(at 367.03 194.31 180)
@@ -9113,6 +9432,17 @@
 			(justify right)
 		)
 		(uuid "508d6bc5-869a-45f3-b6ed-f6048a55bfbe")
+	)
+	(hierarchical_label "ETH_RST"
+		(shape output)
+		(at 367.03 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5a346e2e-a255-4fbf-a881-09fc7ca345b2")
 	)
 	(hierarchical_label "ETH_MISO"
 		(shape input)
@@ -10074,6 +10404,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 327.66 151.13 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "14248156-14d0-4cc4-85da-534898c3978e")
+		(property "Reference" "#PWR0197"
+			(at 327.66 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 327.66 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 327.66 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 327.66 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 327.66 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4d9bff8-30b5-4bfa-b369-bda5be2e0d16")
+		)
+		(instances
+			(project "anarchytechnobox"
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35/d16ac510-e9e9-486e-8ddb-b850ff4462be"
+					(reference "#PWR0197")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TINRS - Wobbler (pico)sch-eagle-import:W25Q128JVSIQ")
 		(at 222.25 161.29 0)
 		(mirror y)
@@ -10872,7 +11268,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 300.99 107.95 0)
 			(effects
 				(font
@@ -12182,6 +12578,72 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
+		(at 321.31 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4bf6e261-0f30-4856-9eee-08b6ddc17d54")
+		(property "Reference" "#PWR0196"
+			(at 321.31 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 319.024 147.066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 321.31 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 321.31 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 321.31 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "454884e8-f57b-4c85-a302-a2e603b2a0ec")
+		)
+		(instances
+			(project "anarchytechnobox"
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35/d16ac510-e9e9-486e-8ddb-b850ff4462be"
+					(reference "#PWR0196")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
 		(at 161.29 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12397,6 +12859,79 @@
 			(project "anarchytechnobox"
 				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35/d16ac510-e9e9-486e-8ddb-b850ff4462be"
 					(reference "#GND043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_3_Bridged12")
+		(at 321.31 157.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "541ee32f-123e-4baf-a042-5b8a98dba91c")
+		(property "Reference" "JP1"
+			(at 316.738 159.258 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jumper_3_Bridged12"
+			(at 323.85 158.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm"
+			(at 321.31 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 321.31 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 3-pole, pins 1+2 closed/bridged"
+			(at 321.31 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e9875ba6-7550-4164-af55-e5375bd48943")
+		)
+		(pin "3"
+			(uuid "e5dd161e-0625-44de-8a6b-7bde8f31b3a5")
+		)
+		(pin "1"
+			(uuid "b7214298-e40f-40f3-9e10-d0a3fcd4557e")
+		)
+		(instances
+			(project ""
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35/d16ac510-e9e9-486e-8ddb-b850ff4462be"
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -15310,6 +15845,72 @@
 		)
 	)
 	(symbol
+		(lib_id "TINRS - Wobbler (pico)sch-eagle-import:GND")
+		(at 309.88 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac3d7eba-32ef-4df1-8a2c-c84d889b7a33")
+		(property "Reference" "#GND051"
+			(at 309.88 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 309.88 163.83 0)
+			(effects
+				(font
+					(size 0.762 0.6477)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" ""
+			(at 309.88 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 309.88 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 309.88 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df69b142-3e85-4b39-b5f7-0ea32e930bdb")
+		)
+		(instances
+			(project "anarchytechnobox"
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35/d16ac510-e9e9-486e-8ddb-b850ff4462be"
+					(reference "#GND051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TINRS - Wobbler (pico)sch-eagle-import:C-0402")
 		(at 322.58 111.76 90)
 		(unit 1)
@@ -16861,6 +17462,80 @@
 			(project "RP2350BMCU"
 				(path "/bc49bd63-e3c6-49b5-92bb-9ce0377f4496"
 					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 300.99 154.94 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2873eca-241d-40c1-bb79-7048e2386287")
+		(property "Reference" "J9"
+			(at 300.99 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 300.99 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connectors:Grove_1x04"
+			(at 300.99 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 300.99 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 300.99 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cf9708a9-bf20-4918-81b1-0a3bd325039e")
+		)
+		(pin "3"
+			(uuid "802a844e-61c9-4695-a14a-e0f0cb4c4374")
+		)
+		(pin "4"
+			(uuid "ec49d2b5-884c-43db-bf5d-0879515650ee")
+		)
+		(pin "1"
+			(uuid "d64522a0-ed87-41db-a0e6-08888945c71c")
+		)
+		(instances
+			(project "anarchytechnobox"
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35/d16ac510-e9e9-486e-8ddb-b850ff4462be"
+					(reference "J9")
 					(unit 1)
 				)
 			)

@@ -1673,7 +1673,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 128.27) (xy 165.1 128.27)
+			(xy 152.4 128.27) (xy 154.94 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1700,6 +1700,16 @@
 			(type default)
 		)
 		(uuid "2a67c0a3-f40c-4ff4-a5c1-c58ffcea2cab")
+	)
+	(wire
+		(pts
+			(xy 162.56 128.27) (xy 165.1 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e43e62c-5453-43d4-b7d8-541e803ada71")
 	)
 	(wire
 		(pts
@@ -3023,6 +3033,83 @@
 			(project "anarchytechnobox"
 				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35/ffbe1760-7219-476c-a404-3e25c1e1c288"
 					(reference "#PWR0191")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 158.75 128.27 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a37662ab-ff08-4256-b956-c858972892bb")
+		(property "Reference" "R64"
+			(at 158.75 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 158.75 131.2164 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 158.75 130.048 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 158.75 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0272a25-f346-41f5-b309-1a1ecfde5852")
+		)
+		(pin "2"
+			(uuid "c442710f-fc08-4ee5-b50c-1ce9c35206fd")
+		)
+		(instances
+			(project "anarchytechnobox"
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35/ffbe1760-7219-476c-a404-3e25c1e1c288"
+					(reference "R64")
 					(unit 1)
 				)
 			)
