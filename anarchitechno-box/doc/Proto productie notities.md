@@ -1,4 +1,5 @@
 - Voor zelf getekende onderdelen checken of JLC snapt waar pin 1 zit...
+- De fonts van 'Foundscape' en 'Anarchitechbox' heb ik niet op MacOS. Staan deze teksten op silkscreen top/bottom nog netjes uitgelijnd?
 
 BOM aantekeningen:
 - U11, U12, U20, U21: DRV8245S of DRV8245P variant hebben we nodig, in PWP package. JLC heeft alleen DRV8245SQPWPRQ1, echter beperkt voorraadig..
