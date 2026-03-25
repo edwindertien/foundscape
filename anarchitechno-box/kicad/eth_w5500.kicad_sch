@@ -8510,6 +8510,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C32843"
+			(at 115.57 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "9f7fea60-a3e9-403f-8af7-33dce0759fb9")
 		)

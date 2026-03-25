@@ -3238,7 +3238,7 @@
 				)
 			)
 		)
-		(property "Value" "DRV8243SQDGQRQ1"
+		(property "Value" "DRV8245SQPWPRQ1"
 			(at 130.175 62.23 0)
 			(effects
 				(font
@@ -3277,6 +3277,15 @@
 		)
 		(property "MPN" "DRV8245SQPWPRQ1"
 			(at 130.048 125.222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5672500"
+			(at 120.65 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3436,7 +3445,7 @@
 		(at 91.44 110.49 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "069b23db-c388-4e3a-adbd-1cf488370327")
@@ -3736,6 +3745,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C443023"
+			(at 219.71 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d6abca6d-108e-4ed7-bb20-5cf7a36dc417")
 		)
@@ -3768,7 +3786,7 @@
 		(at 93.98 110.49 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "1fdaa684-c56b-4c8c-826c-96df9880168b")
@@ -4254,7 +4272,7 @@
 		(at 96.52 110.49 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "84de68dc-356f-47df-834c-7af54a47e41a")
@@ -4720,7 +4738,7 @@
 		(at 99.06 110.49 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "9fb4db63-fc89-4786-bcde-5506a2b707eb")
@@ -4930,6 +4948,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 238.76 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C443023"
 			(at 238.76 72.39 0)
 			(effects
 				(font

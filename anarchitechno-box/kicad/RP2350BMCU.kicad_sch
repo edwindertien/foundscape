@@ -10028,7 +10028,7 @@
 		(at 237.49 149.86 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "117a1448-a667-42c1-830b-75acf6d57ece")
@@ -11295,6 +11295,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C7509546"
+			(at 300.99 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "25e992e8-7165-4e8b-bc61-08891236c863")
 		)
@@ -12453,7 +12462,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "1k"
 			(at 302.514 89.916 0)
 			(effects
 				(font
@@ -13065,6 +13074,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C160403"
+			(at 311.15 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "74bff93e-48ba-403b-b36f-a9b7cafc451f")
 		)
@@ -13263,7 +13281,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 193.04 266.7 0)
 			(effects
 				(font
@@ -13847,9 +13865,9 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "73d36f08-5ced-4222-88c0-280bc6d210a0")
 		(property "Reference" "J10"
 			(at 300.99 120.65 0)
@@ -14548,7 +14566,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 200.66 266.7 0)
 			(effects
 				(font
@@ -15604,6 +15622,15 @@
 			)
 		)
 		(property "Description" "40V 3A Schottky Diode, SMA"
+			(at 205.74 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C8678"
 			(at 205.74 214.63 0)
 			(effects
 				(font
@@ -17164,7 +17191,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "RP2350B"
 			(at 400.05 133.35 0)
 			(effects
 				(font
@@ -17473,9 +17500,9 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d2873eca-241d-40c1-bb79-7048e2386287")
 		(property "Reference" "J9"
 			(at 300.99 146.05 0)
@@ -17631,7 +17658,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "1k"
 			(at 302.514 92.456 0)
 			(effects
 				(font
@@ -18374,7 +18401,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS Part" "C52923"
+		(property "LCSC Part" "C52923"
 			(at 114.3 34.29 0)
 			(effects
 				(font

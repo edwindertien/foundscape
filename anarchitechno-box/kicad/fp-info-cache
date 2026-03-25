@@ -1,4 +1,4 @@
-26365067419839672
+26366841851246434
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -105419,6 +105419,13 @@ EC5DAW-24S05N
 0
 7
 7
+parts
+PSPMAA0402
+
+
+0
+2
+2
 parts
 RobotTheaterLab
 

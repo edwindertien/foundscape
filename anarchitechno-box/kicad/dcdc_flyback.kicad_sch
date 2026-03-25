@@ -7182,6 +7182,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C17454010"
+			(at 143.51 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "92e6f90d-36ef-4e79-b41b-6f4cdcba8dbf")
 		)
@@ -7521,7 +7530,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C22775"
+		(property "LCSC Part" "C17901"
 			(at 129.54 50.8 0)
 			(effects
 				(font
@@ -7697,6 +7706,15 @@
 			)
 		)
 		(property "Description" "40VIN Micropower No-Opto Isolated Flyback Converter with 60V/3.4A Switch"
+			(at 86.36 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C29100686"
 			(at 86.36 54.61 0)
 			(effects
 				(font
@@ -10621,7 +10639,7 @@
 				)
 			)
 		)
-		(property "Footprint" "parts:CENKER_CKCS5040"
+		(property "Footprint" "parts:PSPMAA0402"
 			(at 104.14 139.7 0)
 			(effects
 				(font
@@ -10648,7 +10666,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C5291847"
+		(property "LCSC Part" "C5273841"
 			(at 104.14 139.7 90)
 			(effects
 				(font
@@ -10790,7 +10808,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 17.78 29.21 0)
 			(effects
 				(font
@@ -10809,6 +10827,15 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 17.78 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C395868"
 			(at 17.78 29.21 0)
 			(effects
 				(font
@@ -11361,7 +11388,7 @@
 				)
 			)
 		)
-		(property "Footprint" "parts:CENKER_CKCS5040"
+		(property "Footprint" "parts:PSPMAA0402"
 			(at 241.3 134.62 0)
 			(effects
 				(font
@@ -11388,7 +11415,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C5291847"
+		(property "LCSC Part" "C5273841"
 			(at 241.3 134.62 90)
 			(effects
 				(font
