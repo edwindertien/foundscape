@@ -1273,6 +1273,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Let op _1 en _2 wisselen hier om"
+		(exclude_from_sim no)
+		(at 110.236 29.718 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c7fd5d1b-04f2-4557-8636-34804bfb4f9e")
+	)
 	(junction
 		(at 92.71 68.58)
 		(diameter 0)

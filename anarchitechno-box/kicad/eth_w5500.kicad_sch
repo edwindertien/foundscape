@@ -4536,16 +4536,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 128.27) (xy 97.79 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bbc8cfd-98d2-49fb-a16e-7bbf70841c66")
-	)
-	(wire
-		(pts
 			(xy 166.37 113.03) (xy 156.21 113.03)
 		)
 		(stroke
@@ -9276,6 +9266,74 @@
 			(project "anarchytechnobox"
 				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35/fe979741-96bb-4de4-ad6e-25369264489a"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 97.79 132.08 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad392d16-31d9-4adc-9da9-f2e43b263588")
+		(property "Reference" "R67"
+			(at 95.25 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 97.79 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 96.012 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 97.79 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "024786ba-60cf-4e58-8a1d-5dd41825f278")
+		)
+		(pin "2"
+			(uuid "810b7ea2-91a6-4bc1-82f2-57b63c82d619")
+		)
+		(instances
+			(project "anarchytechnobox"
+				(path "/8c734c41-38ed-40fc-83bd-134786dcfb35/fe979741-96bb-4de4-ad6e-25369264489a"
+					(reference "R67")
 					(unit 1)
 				)
 			)
